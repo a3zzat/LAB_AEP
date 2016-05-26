@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu May 26 14:47:14 2016
+# Process ID: 10812
+# Current directory: E:/projects/xilinix/ref/lab8/lab8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4784 E:\projects\xilinix\ref\lab8\lab8\lab8.xpr
+# Log file: E:/projects/xilinix/ref/lab8/lab8/vivado.log
+# Journal file: E:/projects/xilinix/ref/lab8/lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/projects/xilinix/ref/lab8/lab8/lab8.xpr
+report_ip_status -name ip_status 
+open_bd_design {E:/projects/xilinix/ref/lab8/lab8/lab8.srcs/sources_1/bd/system/system.bd}
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+file copy -force E:/projects/xilinix/ref/lab8/lab8/lab8.runs/impl_1/system_wrapper.sysdef E:/projects/xilinix/ref/lab8/lab8/lab8.sdk/system_wrapper.hdf
+
+launch_sdk -workspace E:/projects/xilinix/ref/lab8/lab8/lab8.sdk -hwspec E:/projects/xilinix/ref/lab8/lab8/lab8.sdk/system_wrapper.hdf
+open_bd_design {E:/projects/xilinix/ref/lab8/lab8/lab8.srcs/sources_1/bd/system/system.bd}

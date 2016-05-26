@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Mon Aug 24 11:05:39 2015
+# Process ID: 94436
+# Log file: C:/embeddedcentric/lab8/lab8.sdk/webtalk/webtalk.log
+# Journal file: C:/embeddedcentric/lab8/lab8.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

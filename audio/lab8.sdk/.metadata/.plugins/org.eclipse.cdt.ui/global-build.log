@@ -1,0 +1,747 @@
+10:50:58 **** Build of project audio_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling nco_top"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project audio_test ****
+
+Nothing to build for project audio_test
+10:58:14 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+'Building file: ../src/lab8.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+'Finished building: ../src/lab8.c'
+' '
+'Building target: audio_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../audio_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\embeddedcentric\lab8\lab8.sdk\audio_test_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_test.elf] Error 1
+11:02:54 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+'Building target: audio_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../audio_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\embeddedcentric\lab8\lab8.sdk\audio_test_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_test.elf] Error 1
+11:03:19 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+'Building target: audio_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../audio_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\embeddedcentric\lab8\lab8.sdk\audio_test_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_test.elf] Error 1
+11:03:35 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+'Building file: ../src/lab8.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+'Finished building: ../src/lab8.c'
+' '
+'Building target: audio_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: audio_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31848	   1192	  22660	  55700	   d994	audio_test.elf
+'Finished building: audio_test.elf.size'
+' '
+11:38:48 **** Build of project audio_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/nco_top_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling nco_top"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:39:28 **** Clean-only build of configuration Debug for project audio_test ****
+make clean 
+rm -rf  ./src/lab8.o  ./src/lab8.d  audio_test.elf.size  audio_test.elf
+' '
+11:39:28 **** Build of configuration Debug for project audio_test ****
+make all 
+'Building file: ../src/lab8.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+'Finished building: ../src/lab8.c'
+' '
+'Building target: audio_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: audio_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31848	   1192	  22660	  55700	   d994	audio_test.elf
+'Finished building: audio_test.elf.size'
+' '
+15:03:16 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:13:08 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:13:49 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:14:09 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:14:32 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:15:58 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:17:04 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:22:26 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+15:22:34 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:35:39 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+15:35:49 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+15:57:54 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+15:57:58 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:01:35 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:01:44 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:01:49 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:02:33 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:02:43 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:02:52 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:18:23 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:18:34 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:21:48 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:21:52 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:22:06 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:25:23 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:25:42 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31864	   1192	  22660	  55716	   d9a4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:25:45 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:29:15 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31928	   1192	  22660	  55780	   d9e4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:29:28 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:30:39 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31928	   1192	  22660	  55780	   d9e4	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:32:00 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:35:17 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31848	   1192	  22660	  55700	   d994	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:35:22 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:40:18 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31848	   1192	  22660	  55700	   d994	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:40:22 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:44:49 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
+16:44:53 **** Auto Build of configuration Debug for project audio_test ****
+make all 
+Building file: ../src/lab8.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab8.o" -I../../audio_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab8.d" -MT"src/lab8.d" -o "src/lab8.o" "../src/lab8.c"
+../src/lab8.c: In function 'main':
+../src/lab8.c:92:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^
+../src/lab8.c: At top level:
+../src/lab8.c:130:6: warning: conflicting types for 'nco_init'
+ void nco_init(void *InstancePtr){
+      ^
+../src/lab8.c:92:2: note: previous implicit declaration of 'nco_init' was here
+  nco_init(&Nco);
+  ^
+Finished building: ../src/lab8.c
+ 
+Building target: audio_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audio_test_bsp/ps7_cortexa9_0/lib -o "audio_test.elf"  ./src/lab8.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audio_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audio_test.elf  |tee "audio_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31848	   1192	  22660	  55700	   d994	audio_test.elf
+Finished building: audio_test.elf.size
+ 
+16:45:00 **** Incremental Build of configuration Debug for project audio_test ****
+make all 
+make: Nothing to be done for `all'.
