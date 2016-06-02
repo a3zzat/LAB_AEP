@@ -1,0 +1,6 @@
+17:40:23 **** Incremental Build of configuration Debug for project fmc_imageon_gs_app ****
+make all 
+make: Nothing to be done for `all'.
+
+17:40:23 Build Finished (took 381ms)
+
