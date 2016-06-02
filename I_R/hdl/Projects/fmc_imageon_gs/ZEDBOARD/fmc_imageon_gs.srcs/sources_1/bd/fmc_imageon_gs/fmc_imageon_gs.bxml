@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="fmc_imageon_gs" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1464901282"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1464901282"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1464901282"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1464906534"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1464906534"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1464906534"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\fmc_imageon_gs_processing_system7_0_0\fmc_imageon_gs_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>
@@ -210,6 +210,22 @@
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\fmc_imageon_gs_zed_audio_ctrl_0_0\fmc_imageon_gs_zed_audio_ctrl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="zed_audio_ctrl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\fmc_imageon_gs_xlconstant_2_0\fmc_imageon_gs_xlconstant_2_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\fmc_imageon_gs_auto_pc_0\fmc_imageon_gs_auto_pc_0.xci" Type="IP">

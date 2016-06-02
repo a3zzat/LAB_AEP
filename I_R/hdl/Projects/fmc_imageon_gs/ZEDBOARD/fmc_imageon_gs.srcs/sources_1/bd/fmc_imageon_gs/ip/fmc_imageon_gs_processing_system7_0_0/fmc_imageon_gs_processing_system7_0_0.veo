@@ -55,6 +55,12 @@
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 fmc_imageon_gs_processing_system7_0_0 your_instance_name (
+  .I2C1_SDA_I(I2C1_SDA_I),                              // input wire I2C1_SDA_I
+  .I2C1_SDA_O(I2C1_SDA_O),                              // output wire I2C1_SDA_O
+  .I2C1_SDA_T(I2C1_SDA_T),                              // output wire I2C1_SDA_T
+  .I2C1_SCL_I(I2C1_SCL_I),                              // input wire I2C1_SCL_I
+  .I2C1_SCL_O(I2C1_SCL_O),                              // output wire I2C1_SCL_O
+  .I2C1_SCL_T(I2C1_SCL_T),                              // output wire I2C1_SCL_T
   .TTC0_WAVE0_OUT(TTC0_WAVE0_OUT),                      // output wire TTC0_WAVE0_OUT
   .TTC0_WAVE1_OUT(TTC0_WAVE1_OUT),                      // output wire TTC0_WAVE1_OUT
   .TTC0_WAVE2_OUT(TTC0_WAVE2_OUT),                      // output wire TTC0_WAVE2_OUT
@@ -148,6 +154,7 @@ fmc_imageon_gs_processing_system7_0_0 your_instance_name (
   .FCLK_CLK0(FCLK_CLK0),                                // output wire FCLK_CLK0
   .FCLK_CLK1(FCLK_CLK1),                                // output wire FCLK_CLK1
   .FCLK_CLK2(FCLK_CLK2),                                // output wire FCLK_CLK2
+  .FCLK_CLK3(FCLK_CLK3),                                // output wire FCLK_CLK3
   .FCLK_RESET0_N(FCLK_RESET0_N),                        // output wire FCLK_RESET0_N
   .FCLK_RESET1_N(FCLK_RESET1_N),                        // output wire FCLK_RESET1_N
   .FCLK_RESET2_N(FCLK_RESET2_N),                        // output wire FCLK_RESET2_N

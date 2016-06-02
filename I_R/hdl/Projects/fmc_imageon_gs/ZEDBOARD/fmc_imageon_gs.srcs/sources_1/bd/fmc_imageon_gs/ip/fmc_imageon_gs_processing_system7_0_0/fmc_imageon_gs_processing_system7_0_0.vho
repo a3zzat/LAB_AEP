@@ -54,6 +54,12 @@
 ------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
 COMPONENT fmc_imageon_gs_processing_system7_0_0
   PORT (
+    I2C1_SDA_I : IN STD_LOGIC;
+    I2C1_SDA_O : OUT STD_LOGIC;
+    I2C1_SDA_T : OUT STD_LOGIC;
+    I2C1_SCL_I : IN STD_LOGIC;
+    I2C1_SCL_O : OUT STD_LOGIC;
+    I2C1_SCL_T : OUT STD_LOGIC;
     TTC0_WAVE0_OUT : OUT STD_LOGIC;
     TTC0_WAVE1_OUT : OUT STD_LOGIC;
     TTC0_WAVE2_OUT : OUT STD_LOGIC;
@@ -147,6 +153,7 @@ COMPONENT fmc_imageon_gs_processing_system7_0_0
     FCLK_CLK0 : OUT STD_LOGIC;
     FCLK_CLK1 : OUT STD_LOGIC;
     FCLK_CLK2 : OUT STD_LOGIC;
+    FCLK_CLK3 : OUT STD_LOGIC;
     FCLK_RESET0_N : OUT STD_LOGIC;
     FCLK_RESET1_N : OUT STD_LOGIC;
     FCLK_RESET2_N : OUT STD_LOGIC;
@@ -181,6 +188,12 @@ END COMPONENT;
 ------------- Begin Cut here for INSTANTIATION Template ----- INST_TAG
 your_instance_name : fmc_imageon_gs_processing_system7_0_0
   PORT MAP (
+    I2C1_SDA_I => I2C1_SDA_I,
+    I2C1_SDA_O => I2C1_SDA_O,
+    I2C1_SDA_T => I2C1_SDA_T,
+    I2C1_SCL_I => I2C1_SCL_I,
+    I2C1_SCL_O => I2C1_SCL_O,
+    I2C1_SCL_T => I2C1_SCL_T,
     TTC0_WAVE0_OUT => TTC0_WAVE0_OUT,
     TTC0_WAVE1_OUT => TTC0_WAVE1_OUT,
     TTC0_WAVE2_OUT => TTC0_WAVE2_OUT,
@@ -274,6 +287,7 @@ your_instance_name : fmc_imageon_gs_processing_system7_0_0
     FCLK_CLK0 => FCLK_CLK0,
     FCLK_CLK1 => FCLK_CLK1,
     FCLK_CLK2 => FCLK_CLK2,
+    FCLK_CLK3 => FCLK_CLK3,
     FCLK_RESET0_N => FCLK_RESET0_N,
     FCLK_RESET1_N => FCLK_RESET1_N,
     FCLK_RESET2_N => FCLK_RESET2_N,

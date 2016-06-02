@@ -94,3 +94,74 @@ java.net.SocketException: Socket closed
 	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
 	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
 	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)
+!SESSION 2016-06-03 01:20:53.767 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-06-03 01:21:20.100
+!MESSAGE An internal error occurred during: "Importing Hardware Specification".
+!STACK 0
+java.lang.NullPointerException
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:166)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:152)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:127)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:417)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:399)
+	at com.xilinx.sdk.startup.InitSDK$11.run(InitSDK.java:350)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2016-06-03 01:21:41.070
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.xilinx.sdk.hw.HwProjectUtil.unsetProjectHwSpec(HwProjectUtil.java:534)
+	at com.xilinx.sdk.hw.HwProjectUtil.disposeHwPlatform(HwProjectUtil.java:257)
+	at com.xilinx.sdk.hw.internal.HwProjectDeletionHandler.handleProjectDeleted(HwProjectDeletionHandler.java:39)
+	at com.xilinx.sdk.hw.internal.HwProjectDeletionHandler.resourceChanged(HwProjectDeletionHandler.java:31)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:261)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:391)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:2030)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:788)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:160)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.tcf 4 0 2016-06-03 01:22:38.218
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)
+
+!ENTRY org.eclipse.tcf 4 0 2016-06-03 01:22:38.232
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)

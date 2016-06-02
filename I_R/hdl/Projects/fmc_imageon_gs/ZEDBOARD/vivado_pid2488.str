@@ -1,0 +1,982 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 2488
+
+Current time: 	6/2/16 11:20:43 PM CEST
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	E:/ProgramFiles/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	CoBoL
+User home directory: C:/Users/CoBoL
+User working directory: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/CoBoL/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/CoBoL/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 369 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\projects\xilinix\master_repo\LAB_AEP\I_R\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 30 MB (+28979kb) [00:00:08]
+// [Engine Memory]: 361 MB (+226773kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 384 MB. GUI used memory: 25 MB. Current time: 6/2/16 11:20:45 PM CEST
+// [Engine Memory]: 395 MB (+17347kb) [00:00:13]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 456 MB (+42464kb) [00:00:18]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+14845kb) [00:00:21]
+// [GUI Memory]: 48 MB (+259kb) [00:00:22]
+// [Engine Memory]: 489 MB (+11102kb) [00:00:23]
+// [GUI Memory]: 53 MB (+2043kb) [00:00:23]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/IP'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/projects/xilinix/master_repo/LAB_AEP/Audio Source Code'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 529 MB (+16773kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 534 MB. GUI used memory: 31 MB. Current time: 6/2/16 11:21:00 PM CEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: fmc_imageon_gs; location: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 834.250 ; gain = 268.723 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+// [Engine Memory]: 558 MB (+1753kb) [00:00:35]
+// Elapsed time: 11 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, U:aJ)
+dismissDialog("Vivado Options"); // U:aJ (cq:JFrame)
+// [GUI Memory]: 61 MB (+5654kb) [00:00:46]
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "Project Settings..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+selectButton("Simulation", "Simulation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+// TclEventType: FILE_SET_CHANGE
+selectButton("Elaboration", "Elaboration"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aJ)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (B:aW, k:aJ)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aJ)
+dismissDialog("Project Settings"); // k:aJ (cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:aY (cq:JFrame)
+// [GUI Memory]: 66 MB (+2673kb) [00:01:09]
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// bF:g (cq:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 02 23:21:45 2016] Launched synth_1... Run output will be captured here: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/synth_1/runme.log [Thu Jun 02 23:21:45 2016] Launched impl_1... Run output will be captured here: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bF:g (cq:JFrame)
+// [GUI Memory]: 70 MB (+341kb) [00:04:13]
+// [GUI Memory]: 74 MB (+523kb) [00:12:03]
+// [GUI Memory]: 79 MB (+1051kb) [00:27:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 569 MB. GUI used memory: 40 MB. Current time: 6/2/16 11:51:01 PM CEST
+// Elapsed time: 2114 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// Elapsed time: 82 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 603 MB (+18540kb) [00:38:57]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 52 MB. Current time: 6/2/16 11:59:38 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cq:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_FAILED
+// Elapsed time: 594 seconds
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:4]. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.", 1); // d:a (JViewport:JComponent, ak:a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:4]. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.", 1); // d:a (JViewport:JComponent, ak:a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:4]. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.", 1, false, false, false, false, true); // d:a (JViewport:JComponent, ak:a) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // ak:a (cq:JFrame)
+// X:G (cq:JFrame): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // X:G (cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:3]. ]", 2, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\projects\xilinix\master_repo\LAB_AEP\I_R\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.srcs\constrs_1\imports\LAB_AEP\Audio Source Code\adc_dac_audio.xdc;-;;-;16;-;line;-;3;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// PAPropertyPanels.initPanels (adc_dac_audio.xdc) elapsed time: 0.2s
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:3]. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:3]. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. ]", 3); // ag:k (JViewport:JComponent, cq:JFrame)
+// [GUI Memory]: 87 MB (+4712kb) [00:48:34]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. ]", 3, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. , [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_1' instantiated as 'fmc_imageon_gs_i/processing_system7_0_axi_periph/s00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:1412]. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 52 MB. Current time: 6/3/16 12:09:12 AM CEST
+// Elapsed time: 23 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:3]. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:3]. , [Common 17-55] 'set_property' expects at least one object. [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc:6]. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\projects\xilinix\master_repo\LAB_AEP\I_R\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.srcs\constrs_1\imports\LAB_AEP\Audio Source Code\adc_dac_audio.xdc;-;;-;16;-;line;-;6;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("adc_dac_audio.xdc", 299, 97); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("adc_dac_audio.xdc", 299, 97, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// bF:g (cq:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// [Engine Memory]: 670 MB (+38203kb) [00:49:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 670 MB. GUI used memory: 42 MB. Current time: 6/3/16 12:09:51 AM CEST
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:v_cfa:7.0 - v_cfa_0 Adding component instance block -- xilinx.com:ip:v_cresample:4.0 - v_cresample_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:v_osd:6.0 - v_osd_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:v_rgb2ycrcb:7.1 - v_rgb2ycrcb_0 Adding component instance block -- xilinx.com:ip:v_tc:6.1 - v_tc_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- avnet:avnet_hdmi:avnet_hdmi_in:3.1 - avnet_hdmi_in_0 Adding component instance block -- avnet:avnet_hdmi:avnet_hdmi_out:3.1 - avnet_hdmi_out_0 Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_1 Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - fmc_imageon_iic_0 Adding component instance block -- avnet:onsemi_vita:onsemi_vita_cam:3.2 - onsemi_vita_cam_0 Adding component instance block -- avnet:onsemi_vita:onsemi_vita_spi:3.2 - onsemi_vita_spi_0 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_148_5M 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_149M 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_76M 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0 Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_1 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1 Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// [Engine Memory]: 720 MB (+17933kb) [00:49:24]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 766 MB (+9684kb) [00:49:27]
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <fmc_imageon_gs> from BD file <E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (fmc_imageon_gs.bd) elapsed time: 0.3s
+// TclEventType: RSB_CONNECTION_CHANGE
+// [Engine Memory]: 816 MB (+12737kb) [00:49:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 816 MB. GUI used memory: 45 MB. Current time: 6/3/16 12:10:10 AM CEST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1057.699 ; gain = 171.797 
+// Elapsed time: 25 seconds
+dismissDialog("Open Block Design"); // bF:g (cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. ]", 3); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. ]", 3, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\projects\xilinix\master_repo\LAB_AEP\I_R\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.srcs\sources_1\bd\fmc_imageon_gs\hdl\fmc_imageon_gs.vhd;-;;-;16;-;line;-;408;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_0' instantiated as 'fmc_imageon_gs_i/axi_mem_intercon/m00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:408]. , [Project 1-486] Could not resolve non-primitive black box cell 'fmc_imageon_gs_auto_pc_1' instantiated as 'fmc_imageon_gs_i/processing_system7_0_axi_periph/s00_couplers/auto_pc' [E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd:1412]. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\projects\xilinix\master_repo\LAB_AEP\I_R\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.srcs\sources_1\bd\fmc_imageon_gs\hdl\fmc_imageon_gs.vhd;-;;-;16;-;line;-;1412;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adc_dac_audio.xdc", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 92 MB (+1015kb) [00:50:23]
+// Elapsed time: 30 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // ab:V (Workspace:JPanel, cq:JFrame)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:bF (cq:JFrame):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 851 MB. GUI used memory: 49 MB. Current time: 6/3/16 12:12:12 AM CEST
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// cn:x (t:g): Configuration Presets: addNotify
+// Elapsed time: 62 seconds
+dismissDialog("Re-customize IP"); // T:bF (cq:JFrame)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:g)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aX:cw (JViewport:JComponent, t:g)
+// [GUI Memory]: 105 MB (+7748kb) [00:51:51]
+// [Engine Memory]: 876 MB (+20057kb) [00:51:51]
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:bF (cq:JFrame):  Re-customize IP : addNotify
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// cn:x (t:g): Configuration Presets: addNotify
+// Elapsed time: 21 seconds
+dismissDialog("Re-customize IP"); // T:bF (cq:JFrame)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:g)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 88 MB. Current time: 6/3/16 12:12:58 AM CEST
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aX:cw (JViewport:JComponent, t:g)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I2C 1 ;  ;  ;  ;  ;  ;  ; ", 11, "I2C 1", 0, false); // aX:cw (JViewport:JComponent, t:g)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:g)
+// [Engine Memory]: 921 MB (+1069kb) [00:52:29]
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 2); // A:cw (JViewport:JComponent, t:g)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK3 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 6, "FCLK_CLK3", 0, false); // A:cw (JViewport:JComponent, t:g)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK3 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 6, "50", 2, false); // A:cw (JViewport:JComponent, t:g)
+setText("PCW FPGA3 PERIPHERAL FREQMHZ", "10"); // O:ao (aO:N, t:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:g)
+// [GUI Memory]: 115 MB (+5855kb) [00:52:36]
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// bF:g (t:g):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_FPGA3_PERIPHERAL_FREQMHZ {10} CONFIG.PCW_EN_CLK3_PORT {1} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} CONFIG.PCW_I2C1_PERIPHERAL_ENABLE {1}] [get_bd_cells processing_system7_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Customize IP"); // bF:g (t:g)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 515, 121, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 122 MB (+533kb) [00:52:49]
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_intf_port -mode Master -vlnv xilinx.com:interface:iic_rtl:1.0 IIC_1 
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins processing_system7_0/IIC_1] [get_bd_intf_ports IIC_1] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 510, 336, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_port -dir O -type clk FCLK_CLK3 
+// Tcl Message: connect_bd_net [get_bd_pins /processing_system7_0/FCLK_CLK3] [get_bd_ports FCLK_CLK3] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 762, 409, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "au"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "zed_audio_ctrl", 3, "zed_audio_ctrl", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "zed_audio_ctrl", 3); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "zed_audio_ctrl", 3, "zed_audio_ctrl", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// bF:g (cq:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:zed_audio_ctrl:1.0 zed_audio_ctrl_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Connection Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins zed_audio_ctrl_0/S_AXI] 
+// bF:g (cq:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </zed_audio_ctrl_0/S_AXI/reg0> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]> 
+dismissDialog("Run Connection Automation"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 534, 390, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_port -dir I SDATA_I 
+// Tcl Message: connect_bd_net [get_bd_pins /zed_audio_ctrl_0/SDATA_I] [get_bd_ports SDATA_I] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 829, 378, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_port -dir O BCLK 
+// Tcl Message: connect_bd_net [get_bd_pins /zed_audio_ctrl_0/BCLK] [get_bd_ports BCLK] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 826, 401, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_port -dir O LRCLK 
+// Tcl Message: connect_bd_net [get_bd_pins /zed_audio_ctrl_0/LRCLK] [get_bd_ports LRCLK] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 823, 430, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_port -dir O SDATA_O 
+// Tcl Message: connect_bd_net [get_bd_pins /zed_audio_ctrl_0/SDATA_O] [get_bd_ports SDATA_O] 
+// Tcl Message: endgroup 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adc_dac_audio.xdc", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bF:g (cq:JFrame):  Save Design : addNotify
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd>  
+dismissDialog("Save Design"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 748, 344, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 685, 269, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// aP:x (cq:JFrame): Create Port: addNotify
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "ADDRESS"); // ao:JTextField (JPanel:JComponent, aP:x)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_DIRECTION, "Output", 1); // f:JComboBox (JPanel:JComponent, aP:x)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_TYPE, "Data", 3); // f:JComboBox (JPanel:JComponent, aP:x)
+selectCheckBox(PAResourceAtoD.CreateRSBPortDialog_CREATE_VECTOR, "Create vector:", true); // h:JCheckBox (JPanel:JComponent, aP:x): TRUE
+// [GUI Memory]: 129 MB (+1630kb) [00:54:28]
+setSpinner(PAResourceAtoD.CreateRSBPortDialog_FROM, "1"); // T:d (JPanel:JComponent, aP:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aP:x)
+dismissDialog("Create Port"); // aP:x (cq:JFrame)
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O -from 1 -to 0 -type data ADDRESS 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 738, 278, 1096, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cons"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "consta"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_2 
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// t:g (cq:JFrame): Re-customize IP: addNotify
+setText("Const Width", "2"); // O:ao (cI:N, t:g)
+setText("Const Val", "0"); // O:ao (cI:N, t:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:g)
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.CONST_WIDTH {2} CONFIG.CONST_VAL {0}] [get_bd_cells xlconstant_2] 
+// Tcl Message: endgroup 
+// [GUI Memory]: 136 MB (+86kb) [00:54:50]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports ADDRESS] [get_bd_pins xlconstant_2/dout] 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// bF:g (cq:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd>  
+// Elapsed time: 19 seconds
+dismissDialog("Save Design"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "System Net Properties"); // at:DockableFrame
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "System Net Properties"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // at:DockableFrame
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd), xlconstant_1 - fmc_imageon_gs_xlconstant_1_0 (fmc_imageon_gs_xlconstant_1_0.xci)]", 32, false); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd), axi_mem_intercon - fmc_imageon_gs_axi_mem_intercon_0 - STRUCTURE (fmc_imageon_gs.vhd)]", 6); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("fmc_imageon_gs_wrapper.vhd", 410, 246); // bl:J (JPanel:JComponent, cq:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // o:ao (ai:f, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// bF:g (cq:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd} 
+dismissDialog("Open Block Design"); // bF:g (cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 10, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:x (cq:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, a:x)
+// 'M' command handler elapsed time: 4 seconds
+dismissDialog("Create HDL Wrapper"); // a:x (cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:x (cq:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+dismissDialog("Create HDL Wrapper"); // a:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bF:g (cq:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd] -top 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_vdma:6.2-15] /axi_vdma_0                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. INFO: [xilinx.com:ip:axi_vdma:6.2-15] /axi_vdma_1                      All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode. 
+// [Engine Memory]: 985 MB (+18235kb) [00:57:03]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1186.188 ; gain = 18.332 
+// Elapsed time: 20 seconds
+dismissDialog("Create HDL Wrapper"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 96 MB. Current time: 6/3/16 12:17:42 AM CEST
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("fmc_imageon_gs_wrapper.vhd", 407, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // o:ao (ai:f, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:g (cq:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:g)
+dismissDialog("Remove Sources"); // az:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs (fmc_imageon_gs.bd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs (fmc_imageon_gs.bd)]", 1, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs (fmc_imageon_gs.bd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs (fmc_imageon_gs.bd)]", 1, true, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:x (cq:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+dismissDialog("Create HDL Wrapper"); // a:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// bF:g (cq:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'fmc_imageon_gs.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bF:g (cq:JFrame)
+// [Engine Memory]: 1,037 MB (+3594kb) [00:58:17]
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,037 MB. GUI used memory: 99 MB. Current time: 6/3/16 12:18:52 AM CEST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // o:ao (ai:f, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_imageon_gs_wrapper.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // eC:aO
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// bF:g (cq:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd} 
+dismissDialog("Open Block Design"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 101 MB. Current time: 6/3/16 12:19:17 AM CEST
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, t:g)
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_imageon_gs_wrapper.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("fmc_imageon_gs_wrapper.vhd", 97, 279); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("fmc_imageon_gs_wrapper.vhd", 97, 279, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fmc_imageon_gs_wrapper.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 143 MB (+46kb) [01:00:19]
+// Elapsed time: 32 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // eC:aO
+selectCodeEditor("adc_dac_audio.xdc", 401, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd)]", 2); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd), zed_audio_ctrl_0 - fmc_imageon_gs_zed_audio_ctrl_0_0 (fmc_imageon_gs_zed_audio_ctrl_0_0.xci)]", 28, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd), zed_audio_ctrl_0 - fmc_imageon_gs_zed_audio_ctrl_0_0 (fmc_imageon_gs_zed_audio_ctrl_0_0.xci)]", 28, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fmc_imageon_gs_wrapper - STRUCTURE (fmc_imageon_gs_wrapper.vhd), fmc_imageon_gs_i - fmc_imageon_gs (fmc_imageon_gs.bd), fmc_imageon_gs - STRUCTURE (fmc_imageon_gs.vhd), zed_audio_ctrl_0 - fmc_imageon_gs_zed_audio_ctrl_0_0 (fmc_imageon_gs_zed_audio_ctrl_0_0.xci)]", 28, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''fmc_imageon_gs_zed_audio_ctrl_0_0.xci' IP is part of a block design. Please use the<br>block design 'fmc_imageon_gs' to customize the IP. (Re-customize IP)'
+// 'H' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bF:g (cq:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd} 
+dismissDialog("Open Block Design"); // bF:g (cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:g)
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 633, 209, 706, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:x (cq:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:x)
+// bF:g (cq:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name zed_audio_ctrl_v1_0_project -directory E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.tmp/zed_audio_ctrl_v1_0_project {e:/projects/xilinix/master_repo/LAB_AEP/Audio Source Code/ip_cores/zed_audio_ctrl/component.xml} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'e:/projects/xilinix/master_repo/lab_aep/i_r/hdl/projects/fmc_imageon_gs/zedboard/fmc_imageon_gs.tmp/zed_audio_ctrl_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/IP'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/projects/xilinix/master_repo/LAB_AEP/Audio Source Code'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [GUI Memory]: 162 MB (+12442kb) [01:01:29]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 4); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 7); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd)]", 4); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd)]", 4); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectButton(PAResourceOtoP.PackagerNavigatorView_HIDE_PACKAGER_STEPS, (String) null); // y:JideButton (K:H, cq:JFrame)
+selectButton(PAResourceItoN.IpPackagerView_SHOW_PACKAGER_STEPS, "Packaging Steps"); // w:l (R:JPanel, cq:JFrame)
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - zed_audio_ctrl"); // aa:aO
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - zed_audio_ctrl"); // aa:aO
+// Tcl Message: ipx::unload_core {e:/projects/xilinix/master_repo/lab_aep/audio source code/ip_cores/zed_audio_ctrl/component.xml} 
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_ser - iis_ser - Behavioral (iis_ser.vhd)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_ser - iis_ser - Behavioral (iis_ser.vhd)]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 37 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd)]", 4); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd), MEM_DECODE_GEN.PER_CE_GEN.MULTIPLE_CES_THIS_CS_GEN.CE_I - pselect_f - imp (pselect_f.vhd)]", 6, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd)]", 3, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd)]", 4, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd), MEM_DECODE_GEN.GEN_FOR_MULTI_CS.MEM_SELECT_I - pselect_f - imp (pselect_f.vhd)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd), I_SLAVE_ATTACHMENT - slave_attachment - imp (slave_attachment.vhd), I_DECODER - address_decoder - IMP (address_decoder.vhd), MEM_DECODE_GEN.GEN_FOR_MULTI_CS.MEM_SELECT_I - pselect_f - imp (pselect_f.vhd)]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), AXI_LITE_IPIF_I - axi_lite_ipif - imp (axi_lite_ipif.vhd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd)]", 3, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// [Engine Memory]: 1,090 MB (+857kb) [01:05:26]
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_deser - iis_deser - Behavioral (iis_deser.vhd)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_ser - iis_ser - Behavioral (iis_ser.vhd)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2s_ctrl - IMP (i2s_ctrl.vhd), USER_LOGIC_I - user_logic - IMP (user_logic.vhd), Inst_iis_ser - iis_ser - Behavioral (iis_ser.vhd)]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 170 MB (+137kb) [01:06:35]
+// Elapsed time: 45 seconds
+selectCodeEditor("iis_ser.vhd", 393, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// Elapsed time: 15 seconds
+closeMainWindow("zed_audio_ctrl_v1_0_project - [e:/projects/xilinix/master_repo/lab_aep/i_r/hdl/projects/fmc_imageon_gs/zedboard/fmc_imageon_gs.tmp/zed_audio_ctrl_v1_0_project/zed_audio_ctrl_v1_0_project.xpr] - Vivado 2015.4"); // cq:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// G:aY (cq:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // G:aY (cq:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 115 MB. Current time: 6/3/16 12:27:50 AM CEST
+// 'b' command handler elapsed time: 3 seconds
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bF:g (cq:JFrame)
+// Tcl Message: ****** Webtalk v2015.4 (64-bit)   **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015   **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source e:/projects/xilinix/master_repo/lab_aep/i_r/hdl/projects/fmc_imageon_gs/zedboard/fmc_imageon_gs.tmp/zed_audio_ctrl_v1_0_project/zed_audio_ctrl_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Fri Jun 03 00:27:54 2016... 
+// Tcl Message: close_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1290.504 ; gain = 0.000 
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'bX' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// bF:g (cq:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: INFO: [BD 41-1662] The design 'fmc_imageon_gs.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.vhd VHDL Output written to : E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fmc_imageon_gs_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fmc_imageon_gs_processing_system7_0_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,116 MB. GUI used memory: 109 MB. Current time: 6/3/16 12:28:07 AM CEST
+// Elapsed time: 13 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bF:g)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 632, 206, 706, 529, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // aa:JMenu (al:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Block Properties..."); // ae:JMenuItem (al:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// [Engine Memory]: 1,147 MB (+2595kb) [01:07:55]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fmc_imageon_gs_processing_system7_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'fmc_imageon_gs_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fmc_imageon_gs_processing_system7_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fmc_imageon_gs_xbar_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fmc_imageon_gs_xbar_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,195 MB. GUI used memory: 107 MB. Current time: 6/3/16 12:28:52 AM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fmc_imageon_gs_auto_pc_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fmc_imageon_gs_auto_pc_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fmc_imageon_gs_auto_pc_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fmc_imageon_gs_auto_pc_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fmc_imageon_gs_auto_pc_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fmc_imageon_gs_auto_pc_1'... INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hw_handoff/fmc_imageon_gs.hwh Generated Block Design Tcl file E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hw_handoff/fmc_imageon_gs_bd.tcl Generated Hardware Definition File E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs.hwdef 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 1,219 MB (+15414kb) [01:08:20]
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jun 03 00:28:55 2016] Launched synth_1... Run output will be captured here: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/synth_1/runme.log [Fri Jun 03 00:28:55 2016] Launched impl_1... Run output will be captured here: E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:55 ; elapsed = 00:00:54 . Memory (MB): peak = 1353.691 ; gain = 63.188 
+// Elapsed time: 30 seconds
+dismissDialog("Generate Bitstream"); // bF:g (cq:JFrame)
+// Elapsed time: 1720 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // at:DockableFrame
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+// Elapsed time: 20 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd] -top. , [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(2) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, make_wrapper -files [get_files E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.srcs/sources_1/bd/fmc_imageon_gs/fmc_imageon_gs.bd] -top. , [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(2) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 109 MB. Current time: 6/3/16 12:58:53 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,243 MB. GUI used memory: 108 MB. Current time: 6/3/16 1:10:49 AM CEST
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 1312 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // X:G (cq:JFrame)
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// N:x (cq:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, N:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:x)
+// 'o' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // N:x (cq:JFrame)
+// Tcl Message: file copy -force E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1/fmc_imageon_gs_wrapper.sysdef E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// Q:x (cq:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:x)
+dismissDialog("Launch SDK"); // Q:x (cq:JFrame)
+// Tcl Message: launch_sdk -workspace E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk -hwspec E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk -hwspec E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 108 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// N:x (cq:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:x)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // N:x (cq:JFrame)
+// Tcl Message: file copy -force E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1/fmc_imageon_gs_wrapper.sysdef E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// Q:x (cq:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:x)
+dismissDialog("Launch SDK"); // Q:x (cq:JFrame)
+// Tcl Message: launch_sdk -workspace E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk -hwspec E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk -hwspec E:/projects/xilinix/master_repo/LAB_AEP/I_R/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
