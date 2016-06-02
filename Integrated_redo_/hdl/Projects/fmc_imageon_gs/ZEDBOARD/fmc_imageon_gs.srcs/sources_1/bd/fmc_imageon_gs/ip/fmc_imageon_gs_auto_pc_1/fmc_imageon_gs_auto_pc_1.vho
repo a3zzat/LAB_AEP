@@ -56,7 +56,6 @@ COMPONENT fmc_imageon_gs_auto_pc_1
   PORT (
     aclk : IN STD_LOGIC;
     aresetn : IN STD_LOGIC;
-    s_axi_awid : IN STD_LOGIC_VECTOR(11 DOWNTO 0);
     s_axi_awaddr : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_awlen : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_awsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -67,17 +66,14 @@ COMPONENT fmc_imageon_gs_auto_pc_1
     s_axi_awqos : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_awvalid : IN STD_LOGIC;
     s_axi_awready : OUT STD_LOGIC;
-    s_axi_wid : IN STD_LOGIC_VECTOR(11 DOWNTO 0);
     s_axi_wdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_wstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_wlast : IN STD_LOGIC;
     s_axi_wvalid : IN STD_LOGIC;
     s_axi_wready : OUT STD_LOGIC;
-    s_axi_bid : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
     s_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s_axi_bvalid : OUT STD_LOGIC;
     s_axi_bready : IN STD_LOGIC;
-    s_axi_arid : IN STD_LOGIC_VECTOR(11 DOWNTO 0);
     s_axi_araddr : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_arlen : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_arsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -88,7 +84,6 @@ COMPONENT fmc_imageon_gs_auto_pc_1
     s_axi_arqos : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_arvalid : IN STD_LOGIC;
     s_axi_arready : OUT STD_LOGIC;
-    s_axi_rid : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
     s_axi_rdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s_axi_rlast : OUT STD_LOGIC;
@@ -125,7 +120,6 @@ your_instance_name : fmc_imageon_gs_auto_pc_1
   PORT MAP (
     aclk => aclk,
     aresetn => aresetn,
-    s_axi_awid => s_axi_awid,
     s_axi_awaddr => s_axi_awaddr,
     s_axi_awlen => s_axi_awlen,
     s_axi_awsize => s_axi_awsize,
@@ -136,17 +130,14 @@ your_instance_name : fmc_imageon_gs_auto_pc_1
     s_axi_awqos => s_axi_awqos,
     s_axi_awvalid => s_axi_awvalid,
     s_axi_awready => s_axi_awready,
-    s_axi_wid => s_axi_wid,
     s_axi_wdata => s_axi_wdata,
     s_axi_wstrb => s_axi_wstrb,
     s_axi_wlast => s_axi_wlast,
     s_axi_wvalid => s_axi_wvalid,
     s_axi_wready => s_axi_wready,
-    s_axi_bid => s_axi_bid,
     s_axi_bresp => s_axi_bresp,
     s_axi_bvalid => s_axi_bvalid,
     s_axi_bready => s_axi_bready,
-    s_axi_arid => s_axi_arid,
     s_axi_araddr => s_axi_araddr,
     s_axi_arlen => s_axi_arlen,
     s_axi_arsize => s_axi_arsize,
@@ -157,7 +148,6 @@ your_instance_name : fmc_imageon_gs_auto_pc_1
     s_axi_arqos => s_axi_arqos,
     s_axi_arvalid => s_axi_arvalid,
     s_axi_arready => s_axi_arready,
-    s_axi_rid => s_axi_rid,
     s_axi_rdata => s_axi_rdata,
     s_axi_rresp => s_axi_rresp,
     s_axi_rlast => s_axi_rlast,

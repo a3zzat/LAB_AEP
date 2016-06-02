@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/Video_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
+<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="eee087e3a62448dcbde26358149dbbe0"/>
@@ -20,6 +20,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../IP"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Audio Source Code"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
     <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
     <Option Name="IPUserFilesDir" Val="$PPRDIR/fmc_imageon_gs.ip_user_files"/>
@@ -35,6 +36,38 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_onsemi_vita_spi_0_0/fmc_imageon_gs_onsemi_vita_spi_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_onsemi_vita_cam_0_0/fmc_imageon_gs_onsemi_vita_cam_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_fmc_imageon_iic_0_0/fmc_imageon_gs_fmc_imageon_iic_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_vdma_1_0/fmc_imageon_gs_axi_vdma_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_1/fmc_imageon_gs_auto_pc_1.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xbar_0/fmc_imageon_gs_xbar_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_mem_intercon_0/fmc_imageon_gs_axi_mem_intercon_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_avnet_hdmi_out_0_0/fmc_imageon_gs_avnet_hdmi_out_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_vdma_0_0/fmc_imageon_gs_axi_vdma_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_avnet_hdmi_in_0_0/fmc_imageon_gs_avnet_hdmi_in_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_tc_0_0/fmc_imageon_gs_v_tc_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_rgb2ycrcb_0_0/fmc_imageon_gs_v_rgb2ycrcb_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_osd_0_0/fmc_imageon_gs_v_osd_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_cresample_0_0/fmc_imageon_gs_v_cresample_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_cfa_0_0/fmc_imageon_gs_v_cfa_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_processing_system7_0_0/fmc_imageon_gs_processing_system7_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hdl/fmc_imageon_gs.vhd"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_149M_0/fmc_imageon_gs_rst_processing_system7_0_149M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_148_5M_0/fmc_imageon_gs_rst_processing_system7_0_148_5M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xbar_1/fmc_imageon_gs_xbar_1.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_processing_system7_0_axi_periph_0/fmc_imageon_gs_processing_system7_0_axi_periph_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xlconstant_1_0/fmc_imageon_gs_xlconstant_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xlconstant_0_0/fmc_imageon_gs_xlconstant_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_vid_in_axi4s_1_0/fmc_imageon_gs_v_vid_in_axi4s_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_vid_in_axi4s_0_0/fmc_imageon_gs_v_vid_in_axi4s_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_axi4s_vid_out_0_0/fmc_imageon_gs_v_axi4s_vid_out_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_0/fmc_imageon_gs_auto_pc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_76M_0/fmc_imageon_gs_rst_processing_system7_0_76M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hw_handoff/fmc_imageon_gs.hwh"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hdl/fmc_imageon_gs.hwdef"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hw_handoff/fmc_imageon_gs_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="fmc_imageon_gs_ooc.xdc"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd">
         <FileInfo>
@@ -50,8 +83,18 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../zedboard_fmc_imageon_gs.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/zedboard_fmc_imageon_gs.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../zedboard_fmc_imageon_gs.xdc"/>
+          <Attr Name="ImportTime" Val="1456317246"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/LAB_AEP/Audio Source Code/adc_dac_audio.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Audio Source Code/adc_dac_audio.xdc"/>
+          <Attr Name="ImportTime" Val="1464295940"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -96,14 +139,13 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
         <Step Id="init_design"/>
@@ -116,7 +158,6 @@
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
   </Runs>
 </Project>

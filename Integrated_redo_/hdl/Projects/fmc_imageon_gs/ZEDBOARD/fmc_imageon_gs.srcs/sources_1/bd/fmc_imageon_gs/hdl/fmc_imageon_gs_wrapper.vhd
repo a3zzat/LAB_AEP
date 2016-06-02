@@ -1,7 +1,7 @@
 --Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
---Date        : Thu Jun 02 18:19:39 2016
+--Date        : Thu Jun 02 23:00:29 2016
 --Host        : MyIdeaPad running 64-bit major release  (build 9200)
 --Command     : generate_target fmc_imageon_gs_wrapper.bd
 --Design      : fmc_imageon_gs_wrapper
@@ -85,9 +85,11 @@ architecture STRUCTURE of fmc_imageon_gs_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    IO_HDMII_clk : in STD_LOGIC;
-    fmc_imageon_iic_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
-    fmc_imageon_vclk : in STD_LOGIC;
+    IO_HDMII_data : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    IO_HDMII_spdif : in STD_LOGIC;
+    IO_HDMIO_clk : out STD_LOGIC;
+    IO_HDMIO_data : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    IO_HDMIO_spdif : out STD_LOGIC;
     IO_VITA_CAM_data_p : in STD_LOGIC_VECTOR ( 3 downto 0 );
     IO_VITA_CAM_sync_p : in STD_LOGIC;
     IO_VITA_CAM_sync_n : in STD_LOGIC;
@@ -98,21 +100,19 @@ architecture STRUCTURE of fmc_imageon_gs_wrapper is
     IO_VITA_CAM_data_n : in STD_LOGIC_VECTOR ( 3 downto 0 );
     IO_VITA_CAM_clk_out_p : in STD_LOGIC;
     IO_VITA_CAM_clk_out_n : in STD_LOGIC;
-    IO_HDMII_data : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    IO_HDMII_spdif : in STD_LOGIC;
-    IO_HDMIO_clk : out STD_LOGIC;
-    IO_HDMIO_data : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    IO_HDMIO_spdif : out STD_LOGIC;
+    IO_VITA_SPI_spi_sclk : out STD_LOGIC;
+    IO_VITA_SPI_spi_ssel_n : out STD_LOGIC;
+    IO_VITA_SPI_spi_mosi : out STD_LOGIC;
+    IO_VITA_SPI_spi_miso : in STD_LOGIC;
     fmc_imageon_iic_scl_i : in STD_LOGIC;
     fmc_imageon_iic_scl_o : out STD_LOGIC;
     fmc_imageon_iic_scl_t : out STD_LOGIC;
     fmc_imageon_iic_sda_i : in STD_LOGIC;
     fmc_imageon_iic_sda_o : out STD_LOGIC;
     fmc_imageon_iic_sda_t : out STD_LOGIC;
-    IO_VITA_SPI_spi_sclk : out STD_LOGIC;
-    IO_VITA_SPI_spi_ssel_n : out STD_LOGIC;
-    IO_VITA_SPI_spi_mosi : out STD_LOGIC;
-    IO_VITA_SPI_spi_miso : in STD_LOGIC
+    IO_HDMII_clk : in STD_LOGIC;
+    fmc_imageon_vclk : in STD_LOGIC;
+    fmc_imageon_iic_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component fmc_imageon_gs;
   component IOBUF is

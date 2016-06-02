@@ -4,3 +4,8 @@
 21:53:07 INFO  : Restoring local repository preferences: 
 		 E:/projects/xilinix/master_repo/LAB_AEP/Video_redo_/hdl/Projects/fmc_imageon_gs/software/sw_repository
 21:53:07 INFO  : Processing command line option -hwspec E:/projects/xilinix/master_repo/LAB_AEP/Video_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf.
+22:34:33 INFO  : Launching XSDB server: xsdb.bat E:/ProgramFiles/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+22:34:35 INFO  : XSDB server has started successfully.
+22:34:44 INFO  : Restoring local repository preferences: 
+		 E:/projects/xilinix/master_repo/LAB_AEP/Video_redo_/hdl/Projects/fmc_imageon_gs/software/sw_repository
+22:34:44 INFO  : Processing command line option -hwspec E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf.
