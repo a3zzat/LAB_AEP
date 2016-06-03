@@ -1,0 +1,18 @@
+/*
+ * Combined_app.c
+ *
+ *  Created on: Jun 3, 2016
+ *      Author: CoBoL
+ */
+
+#include "Audio.h"
+#include "Video.h"
+
+int main()
+{
+	 Audio_main();
+	 Video_main();
+
+
+	return 0;
+}

@@ -1,0 +1,30 @@
+03:38:16 **** Incremental Build of configuration Debug for project Audio_video ****
+make all 
+Building file: ../src/Combined_app.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Combined_app.o" -I../../fmc_imageon_gs_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Combined_app.d" -MT"src/Combined_app.d" -o "src/Combined_app.o" "../src/Combined_app.c"
+Finished building: ../src/Combined_app.c
+ 
+Building file: ../Audio_src/Audio_main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"Audio_src/Audio_main.o" -I../../fmc_imageon_gs_bsp/ps7_cortexa9_0/include -MMD -MP -MF"Audio_src/Audio_main.d" -MT"Audio_src/Audio_main.d" -o "Audio_src/Audio_main.o" "../Audio_src/Audio_main.c"
+../Audio_src/Audio_main.c: In function 'read_superpose_play':
+../Audio_src/Audio_main.c:202:9: warning: 'step' is used uninitialized in this function [-Wuninitialized]
+  nco_in = step;
+         ^
+../Audio_src/Audio_main.c:214:8: warning: 'nco_out' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   temp = nco_out;
+        ^
+Finished building: ../Audio_src/Audio_main.c
+ 
+Building target: Audio_video.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmc_imageon_gs_bsp/ps7_cortexa9_0/lib -o "Audio_video.elf"  ./src/Combined_app.o ./src/platform.o  ./Video_src/avnet_console.o ./Video_src/avnet_console_scanput.o ./Video_src/avnet_console_serial.o ./Video_src/avnet_console_tokenize.o ./Video_src/demo.o ./Video_src/edid_fmc_imageon.o ./Video_src/main.o ./Video_src/sleep.o ./Video_src/xaxivdma_ext.o  ./Audio_src/Audio_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Audio_video.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Audio_video.elf  |tee "Audio_video.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88852	   3408	  28912	 121172	  1d954	Audio_video.elf
+Finished building: Audio_video.elf.size
+ 

@@ -1,2 +1,2 @@
-com.xilinx.sdk.sw.prefs.repos.local=E\:/projects/xilinix/master_repo/LAB_AEP/Video_redo_/hdl/Projects/fmc_imageon_gs/software/sw_repository;
+com.xilinx.sdk.sw.prefs.repos.local=.\\Software_repo;
 eclipse.preferences.version=1
