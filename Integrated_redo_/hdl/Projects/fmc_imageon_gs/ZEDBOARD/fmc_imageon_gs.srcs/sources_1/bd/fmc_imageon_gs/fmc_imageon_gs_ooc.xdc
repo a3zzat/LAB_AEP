@@ -12,5 +12,6 @@ create_clock -name IO_VITA_CAM_clk_out_n -period 10 [get_ports IO_VITA_CAM_clk_o
 create_clock -name processing_system7_0_FCLK_CLK0 -period 13 [get_pins processing_system7_0/FCLK_CLK0]
 create_clock -name processing_system7_0_FCLK_CLK1 -period 7 [get_pins processing_system7_0/FCLK_CLK1]
 create_clock -name processing_system7_0_FCLK_CLK2 -period 5 [get_pins processing_system7_0/FCLK_CLK2]
+create_clock -name processing_system7_0_FCLK_CLK3 -period 100 [get_pins processing_system7_0/FCLK_CLK3]
 
 ################################################################################

@@ -35,7 +35,7 @@ all: fmc_imageon_gs_app.elf secondary-outputs
 fmc_imageon_gs_app.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM gcc linker'
-	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmc_imageon_gs_bsp/ps7_cortexa9_0/lib -o "fmc_imageon_gs_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AV_bsp/ps7_cortexa9_0/lib -o "fmc_imageon_gs_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

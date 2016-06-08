@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
-| Date             : Thu Jun 02 21:22:47 2016
+| Date             : Tue Jun 07 16:44:23 2016
 | Host             : MyIdeaPad running 64-bit major release  (build 9200)
 | Command          : 
 | Design           : fmc_imageon_gs_wrapper
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.997 |
-| Dynamic (W)              | 1.825 |
-| Device Static (W)        | 0.172 |
+| Total On-Chip Power (W)  | 2.010 |
+| Dynamic (W)              | 1.837 |
+| Device Static (W)        | 0.173 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 62.0  |
-| Junction Temperature (C) | 48.0  |
+| Max Ambient (C)          | 61.8  |
+| Junction Temperature (C) | 48.2  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -49,22 +49,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.098 |       10 |       --- |             --- |
-| Slice Logic              |     0.027 |    43612 |       --- |             --- |
-|   LUT as Logic           |     0.021 |    14650 |     53200 |           27.54 |
+| Clocks                   |     0.101 |       11 |       --- |             --- |
+| Slice Logic              |     0.028 |    44203 |       --- |             --- |
+|   LUT as Logic           |     0.022 |    14897 |     53200 |           28.00 |
 |   CARRY4                 |     0.003 |     1290 |     13300 |            9.70 |
-|   Register               |     0.002 |    21560 |    106400 |           20.26 |
+|   Register               |     0.002 |    21853 |    106400 |           20.54 |
 |   LUT as Distributed RAM |    <0.001 |      221 |     17400 |            1.27 |
 |   LUT as Shift Register  |    <0.001 |      889 |     17400 |            5.11 |
-|   F7/F8 Muxes            |    <0.001 |      250 |     53200 |            0.47 |
-|   Others                 |    <0.001 |     1769 |       --- |             --- |
-| Signals                  |     0.034 |    30890 |       --- |             --- |
+|   F7/F8 Muxes            |    <0.001 |      251 |     53200 |            0.47 |
+|   Others                 |    <0.001 |     1780 |       --- |             --- |
+| Signals                  |     0.035 |    31325 |       --- |             --- |
 | Block RAM                |     0.052 |       45 |       140 |           32.14 |
 | DSPs                     |     0.015 |       16 |       220 |            7.27 |
-| I/O                      |     0.064 |       63 |       200 |           31.50 |
+| I/O                      |     0.071 |       72 |       200 |           36.00 |
 | PS7                      |     1.535 |        1 |       --- |             --- |
-| Static Power             |     0.172 |          |           |                 |
-| Total                    |     1.997 |          |           |                 |
+| Static Power             |     0.173 |          |           |                 |
+| Total                    |     2.010 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,9 +74,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.244 |       0.225 |      0.019 |
+| Vccint    |       1.000 |     0.249 |       0.230 |      0.019 |
 | Vccaux    |       1.800 |     0.049 |       0.028 |      0.021 |
-| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
+| Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.005 |       0.004 |      0.001 |
 | Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
 | Vcco15    |       1.500 |     0.001 |       0.000 |      0.001 |
@@ -141,6 +141,7 @@ Table of Contents
 | clk_fpga_0          | fmc_imageon_gs_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]                                                                                              |            13.0 |
 | clk_fpga_1          | fmc_imageon_gs_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]                                                                                              |             7.0 |
 | clk_fpga_2          | fmc_imageon_gs_i/processing_system7_0/inst/FCLK_CLK_unbuffered[2]                                                                                              |             5.0 |
+| clk_fpga_3          | fmc_imageon_gs_i/processing_system7_0/inst/FCLK_CLK_unbuffered[3]                                                                                              |           100.0 |
 | hdmii_clk           | IO_HDMII_clk                                                                                                                                                   |             6.7 |
 | video_clk           | fmc_imageon_vclk                                                                                                                                               |             6.7 |
 | vita_clk_div4_l_n_0 | fmc_imageon_gs_i/onsemi_vita_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/vita_clk_div4_l_n_0                                                                    |            26.9 |
@@ -157,19 +158,19 @@ Table of Contents
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                                                                                                                                       | Power (W) |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| fmc_imageon_gs_wrapper                                                                                                                                                                                                                     |     1.825 |
-|   fmc_imageon_gs_i                                                                                                                                                                                                                         |     1.824 |
+| fmc_imageon_gs_wrapper                                                                                                                                                                                                                     |     1.837 |
+|   fmc_imageon_gs_i                                                                                                                                                                                                                         |     1.829 |
 |     avnet_hdmi_in_0                                                                                                                                                                                                                        |     0.002 |
 |       U0                                                                                                                                                                                                                                   |     0.002 |
 |     avnet_hdmi_out_0                                                                                                                                                                                                                       |     0.013 |
 |       U0                                                                                                                                                                                                                                   |     0.013 |
 |         embed_syncs_l                                                                                                                                                                                                                      |     0.001 |
-|     axi_mem_intercon                                                                                                                                                                                                                       |     0.005 |
-|       m00_couplers                                                                                                                                                                                                                         |     0.002 |
-|         auto_pc                                                                                                                                                                                                                            |     0.002 |
-|           inst                                                                                                                                                                                                                             |     0.002 |
-|             gen_axi4_axi3.axi3_conv_inst                                                                                                                                                                                                   |     0.002 |
-|               USE_READ.USE_SPLIT_R.read_addr_inst                                                                                                                                                                                          |    <0.001 |
+|     axi_mem_intercon                                                                                                                                                                                                                       |     0.006 |
+|       m00_couplers                                                                                                                                                                                                                         |     0.003 |
+|         auto_pc                                                                                                                                                                                                                            |     0.003 |
+|           inst                                                                                                                                                                                                                             |     0.003 |
+|             gen_axi4_axi3.axi3_conv_inst                                                                                                                                                                                                   |     0.003 |
+|               USE_READ.USE_SPLIT_R.read_addr_inst                                                                                                                                                                                          |     0.001 |
 |                 USE_R_CHANNEL.cmd_queue                                                                                                                                                                                                    |    <0.001 |
 |                   inst                                                                                                                                                                                                                     |    <0.001 |
 |                     fifo_gen_inst                                                                                                                                                                                                          |    <0.001 |
@@ -257,8 +258,8 @@ Table of Contents
 |               wrouter_aw_fifo                                                                                                                                                                                                              |    <0.001 |
 |                 gen_srls[0].gen_rep[0].srl_nx1                                                                                                                                                                                             |    <0.001 |
 |             splitter_aw_mi                                                                                                                                                                                                                 |    <0.001 |
-|     axi_vdma_0                                                                                                                                                                                                                             |     0.035 |
-|       U0                                                                                                                                                                                                                                   |     0.035 |
+|     axi_vdma_0                                                                                                                                                                                                                             |     0.036 |
+|       U0                                                                                                                                                                                                                                   |     0.036 |
 |         AXI_LITE_REG_INTERFACE_I                                                                                                                                                                                                           |     0.004 |
 |           GEN_AXI_LITE_IF.AXI_LITE_IF_I                                                                                                                                                                                                    |     0.004 |
 |             GEN_LITE_IS_ASYNC.GEN_ASYNC_LITE_ACCESS.LITE_WVALID_MM2S_CDC_I                                                                                                                                                                 |    <0.001 |
@@ -824,16 +825,16 @@ Table of Contents
 |                 I_DECODER                                                                                                                                                                                                                  |    <0.001 |
 |             X_INTERRUPT_CONTROL                                                                                                                                                                                                            |    <0.001 |
 |             X_SOFT_RESET                                                                                                                                                                                                                   |    <0.001 |
-|     onsemi_vita_cam_0                                                                                                                                                                                                                      |     0.081 |
-|       U0                                                                                                                                                                                                                                   |     0.081 |
-|         onsemi_vita_cam_v3_1_S00_AXI_inst                                                                                                                                                                                                  |     0.081 |
-|           onsemi_vita_cam_core_inst                                                                                                                                                                                                        |     0.077 |
+|     onsemi_vita_cam_0                                                                                                                                                                                                                      |     0.082 |
+|       U0                                                                                                                                                                                                                                   |     0.082 |
+|         onsemi_vita_cam_v3_1_S00_AXI_inst                                                                                                                                                                                                  |     0.082 |
+|           onsemi_vita_cam_core_inst                                                                                                                                                                                                        |     0.078 |
 |             DEMUX_GEN.demux_fifo_l                                                                                                                                                                                                         |     0.011 |
 |               afifo_64i_16o_l                                                                                                                                                                                                              |     0.011 |
 |                 inst_fifo_gen                                                                                                                                                                                                              |     0.011 |
 |                   gconvfifo.rf                                                                                                                                                                                                             |     0.011 |
 |                     grf.rf                                                                                                                                                                                                                 |     0.011 |
-|                       gntv_or_sync_fifo.gcx.clkx                                                                                                                                                                                           |    <0.001 |
+|                       gntv_or_sync_fifo.gcx.clkx                                                                                                                                                                                           |     0.001 |
 |                         gsync_stage[1].rd_stg_inst                                                                                                                                                                                         |    <0.001 |
 |                         gsync_stage[1].wr_stg_inst                                                                                                                                                                                         |    <0.001 |
 |                         gsync_stage[2].rd_stg_inst                                                                                                                                                                                         |    <0.001 |
@@ -992,11 +993,11 @@ Table of Contents
 |       inst                                                                                                                                                                                                                                 |     1.537 |
 |         xlnx_axi_wrshim_unwrap_inst_gp0                                                                                                                                                                                                    |     0.000 |
 |         xlnx_axi_wrshim_unwrap_inst_gp1                                                                                                                                                                                                    |     0.000 |
-|     processing_system7_0_axi_periph                                                                                                                                                                                                        |     0.004 |
-|       s00_couplers                                                                                                                                                                                                                         |     0.003 |
-|         auto_pc                                                                                                                                                                                                                            |     0.003 |
-|           inst                                                                                                                                                                                                                             |     0.003 |
-|             gen_axilite.gen_b2s_conv.axilite_b2s                                                                                                                                                                                           |     0.003 |
+|     processing_system7_0_axi_periph                                                                                                                                                                                                        |     0.005 |
+|       s00_couplers                                                                                                                                                                                                                         |     0.004 |
+|         auto_pc                                                                                                                                                                                                                            |     0.004 |
+|           inst                                                                                                                                                                                                                             |     0.004 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s                                                                                                                                                                                           |     0.004 |
 |               RD.ar_channel_0                                                                                                                                                                                                              |    <0.001 |
 |                 ar_cmd_fsm_0                                                                                                                                                                                                               |    <0.001 |
 |                 cmd_translator_0                                                                                                                                                                                                           |    <0.001 |
@@ -1082,8 +1083,8 @@ Table of Contents
 |                   rstblk                                                                                                                                                                                                                   |    <0.001 |
 |         FORMATTER_INST                                                                                                                                                                                                                     |    <0.001 |
 |         SYNC_INST                                                                                                                                                                                                                          |     0.002 |
-|     v_cfa_0                                                                                                                                                                                                                                |     0.046 |
-|       U0                                                                                                                                                                                                                                   |     0.046 |
+|     v_cfa_0                                                                                                                                                                                                                                |     0.047 |
+|       U0                                                                                                                                                                                                                                   |     0.047 |
 |         obsfksamio5arvgrfb                                                                                                                                                                                                                 |     0.004 |
 |           obsaso3r34x1g4r4wmo4rvuze0r5cdmtxm5l3tpi5lgozj5la                                                                                                                                                                                |    <0.001 |
 |             obsnwpw05e20h0jx1ze0xqumoh                                                                                                                                                                                                     |    <0.001 |
@@ -1149,7 +1150,7 @@ Table of Contents
 |                   obsiira12nlhb                                                                                                                                                                                                            |    <0.001 |
 |                   obsiira12nlhc                                                                                                                                                                                                            |    <0.001 |
 |                   obsngaajl                                                                                                                                                                                                                |     0.002 |
-|                   obsngaajo                                                                                                                                                                                                                |     0.002 |
+|                   obsngaajo                                                                                                                                                                                                                |     0.001 |
 |                   obsnira12akrde                                                                                                                                                                                                           |    <0.001 |
 |                   obsnira12nlha                                                                                                                                                                                                            |    <0.001 |
 |                 obsibrbmay5dabgcd5qeqledb                                                                                                                                                                                                  |    <0.001 |
@@ -1226,8 +1227,8 @@ Table of Contents
 |               obsfgbbrl                                                                                                                                                                                                                    |    <0.001 |
 |                 obsfvbbuiraeysooke5jcijrfeqrje2t4egtaqz4ira1205g15205hd                                                                                                                                                                    |    <0.001 |
 |                 obsnvbbuiraeysooke5jcijrfeqrje2t4egtaqz4ira1205g153a5id                                                                                                                                                                    |    <0.001 |
-|           obsnafzd2oke5ykictc                                                                                                                                                                                                              |    <0.001 |
-|             obsn2mw0p4so3tn41pggn4u1fhc                                                                                                                                                                                                    |    <0.001 |
+|           obsnafzd2oke5ykictc                                                                                                                                                                                                              |     0.001 |
+|             obsn2mw0p4so3tn41pggn4u1fhc                                                                                                                                                                                                    |     0.001 |
 |               obsfgbbrl                                                                                                                                                                                                                    |    <0.001 |
 |                 obsavbbuiraeysooke5jcijrfeqrje2t4egtaqz4ira1205g1521optob                                                                                                                                                                  |    <0.001 |
 |                 obsavbbuiraeysooke5jcijrfeqrje2t4egtaqz4ira1205g1521rptrn                                                                                                                                                                  |    <0.001 |
@@ -1257,8 +1258,8 @@ Table of Contents
 |         obsi2pxgzhumx0nx01d                                                                                                                                                                                                                |    <0.001 |
 |           obsicfizz5cdi3mtnb                                                                                                                                                                                                               |    <0.001 |
 |             obsfdasjcaga                                                                                                                                                                                                                   |    <0.001 |
-|     v_osd_0                                                                                                                                                                                                                                |     0.015 |
-|       U0                                                                                                                                                                                                                                   |     0.015 |
+|     v_osd_0                                                                                                                                                                                                                                |     0.016 |
+|       U0                                                                                                                                                                                                                                   |     0.016 |
 |         obsa2pwlnh5n4ld                                                                                                                                                                                                                    |     0.007 |
 |           obsavkgh3ex23oj4s13ddh5jw5lp5rizx5csh2invkgh3zs12tdo5rbxrs1j50jpz02t3fx0ggp4tn4w40                                                                                                                                               |    <0.001 |
 |           obsavkgh3pspfdl415gor5crtp4fepyq1kump1tjszx2in2mw0p4so3tn4wmoprx5jpctjunb                                                                                                                                                        |    <0.001 |
@@ -1308,12 +1309,12 @@ Table of Contents
 |           obsaso3r34x1g4r4wmo4rvuze0r5cdo1zrthhgzhtl313m                                                                                                                                                                                   |     0.002 |
 |           obsicfizz5cdi3mtnb                                                                                                                                                                                                               |    <0.001 |
 |             obsfdasjcaga                                                                                                                                                                                                                   |    <0.001 |
-|           obsiso3r34x1g4r4wmo4rvuze0r5cdnkrr05wdr1na                                                                                                                                                                                       |    <0.001 |
+|           obsiso3r34x1g4r4wmo4rvuze0r5cdnkrr05wdr1na                                                                                                                                                                                       |     0.001 |
 |           obsnso3r34x1g4r4wmo4rvuze0r5cdo1zrthgplstjv434wa                                                                                                                                                                                 |    <0.001 |
-|     v_rgb2ycrcb_0                                                                                                                                                                                                                          |     0.011 |
-|       U0                                                                                                                                                                                                                                   |     0.011 |
+|     v_rgb2ycrcb_0                                                                                                                                                                                                                          |     0.010 |
+|       U0                                                                                                                                                                                                                                   |     0.010 |
 |         U_VIDEO_CTRL                                                                                                                                                                                                                       |     0.000 |
-|         rgb2ycrcb_top_inst                                                                                                                                                                                                                 |     0.011 |
+|         rgb2ycrcb_top_inst                                                                                                                                                                                                                 |     0.010 |
 |           axi_control                                                                                                                                                                                                                      |    <0.001 |
 |           axi_in_fifo                                                                                                                                                                                                                      |     0.002 |
 |             U_AXIS_SYNC_FIFO                                                                                                                                                                                                               |     0.002 |
@@ -1411,8 +1412,8 @@ Table of Contents
 |                               prim_noinit.ram                                                                                                                                                                                              |     0.004 |
 |                   rstblk                                                                                                                                                                                                                   |    <0.001 |
 |         FORMATTER_INST                                                                                                                                                                                                                     |    <0.001 |
-|     v_vid_in_axi4s_1                                                                                                                                                                                                                       |     0.009 |
-|       inst                                                                                                                                                                                                                                 |     0.009 |
+|     v_vid_in_axi4s_1                                                                                                                                                                                                                       |     0.008 |
+|       inst                                                                                                                                                                                                                                 |     0.008 |
 |         COUPLER_INST                                                                                                                                                                                                                       |     0.007 |
 |           FIFO_INST                                                                                                                                                                                                                        |     0.007 |
 |             inst_fifo_gen                                                                                                                                                                                                                  |     0.007 |
@@ -1444,11 +1445,22 @@ Table of Contents
 |                             ramloop[1].ram.r                                                                                                                                                                                               |     0.003 |
 |                               prim_noinit.ram                                                                                                                                                                                              |     0.003 |
 |                   rstblk                                                                                                                                                                                                                   |    <0.001 |
-|         FORMATTER_INST                                                                                                                                                                                                                     |     0.001 |
+|         FORMATTER_INST                                                                                                                                                                                                                     |    <0.001 |
 |     xlconstant_0                                                                                                                                                                                                                           |     0.000 |
 |     xlconstant_1                                                                                                                                                                                                                           |     0.000 |
+|     xlconstant_2                                                                                                                                                                                                                           |     0.000 |
+|     zed_audio_ctrl_0                                                                                                                                                                                                                       |     0.001 |
+|       U0                                                                                                                                                                                                                                   |     0.001 |
+|         AXI_LITE_IPIF_I                                                                                                                                                                                                                    |    <0.001 |
+|           I_SLAVE_ATTACHMENT                                                                                                                                                                                                               |    <0.001 |
+|             I_DECODER                                                                                                                                                                                                                      |    <0.001 |
+|         USER_LOGIC_I                                                                                                                                                                                                                       |    <0.001 |
+|           Inst_iis_deser                                                                                                                                                                                                                   |    <0.001 |
+|           Inst_iis_ser                                                                                                                                                                                                                     |    <0.001 |
 |   fmc_imageon_iic_scl_iobuf                                                                                                                                                                                                                |     0.000 |
 |   fmc_imageon_iic_sda_iobuf                                                                                                                                                                                                                |     0.000 |
+|   iic_1_scl_iobuf                                                                                                                                                                                                                          |     0.003 |
+|   iic_1_sda_iobuf                                                                                                                                                                                                                          |     0.003 |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 
 

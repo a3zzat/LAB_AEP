@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir E:\\projects\\xilinix\\ref\\lab8\\lab8\\lab8.sdk\\webtalk
+webtalk_init -webtalk_dir E:\\projects\\xilinix\\master_repo\\LAB_AEP\\Audio\\lab8.sdk\\webtalk
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu May 26 16:47:28 2016" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Jun 7 13:34:30 2016" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "SDK v2015.4" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2015.4" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
@@ -12,9 +12,9 @@ webtalk_add_data -client project -key target_family -value "NA" -context "softwa
 webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
 webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
 webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
-webtalk_add_data -client project -key random_id -value "4lgld0hmiad91belos66cjt9ll" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_id -value "2015.4_9" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "9" -context "software_version_and_target_device"
+webtalk_add_data -client project -key random_id -value "eqtkdi9qo4dop6a22t9sovceev" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_id -value "2015.4_25" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "25" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "" -context "user_environment"
@@ -22,12 +22,12 @@ webtalk_add_data -client project -key cpu_speed -value "" -context "user_environ
 webtalk_add_data -client project -key total_processors -value "" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "" -context "user_environment"
 webtalk_register_client -client sdk
-webtalk_add_data -client sdk -key uid -value "1464267717451" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key VivadoVersion -value "2015.2" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key Device -value "7z020" -context "sdk\\\\hardware/1464267717451"
-webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1464267717451"
-webtalk_transmit -clientid 3065965365 -regid "" -xml E:\\projects\\xilinix\\ref\\lab8\\lab8\\lab8.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html E:\\projects\\xilinix\\ref\\lab8\\lab8\\lab8.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm E:\\projects\\xilinix\\ref\\lab8\\lab8\\lab8.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+webtalk_add_data -client sdk -key uid -value "1465298957796" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key VivadoVersion -value "2015.2" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key Device -value "7z020" -context "sdk\\\\hardware/1465298957796"
+webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1465298957796"
+webtalk_transmit -clientid 3578338370 -regid "" -xml E:\\projects\\xilinix\\master_repo\\LAB_AEP\\Audio\\lab8.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html E:\\projects\\xilinix\\master_repo\\LAB_AEP\\Audio\\lab8.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm E:\\projects\\xilinix\\master_repo\\LAB_AEP\\Audio\\lab8.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
 webtalk_terminate
