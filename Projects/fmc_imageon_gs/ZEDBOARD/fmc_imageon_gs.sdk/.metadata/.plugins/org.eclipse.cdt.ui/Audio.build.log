@@ -1,0 +1,6 @@
+10:55:16 **** Incremental Build of configuration Debug for project Audio ****
+make all 
+make: Nothing to be done for `all'.
+
+10:55:16 Build Finished (took 141ms)
+
