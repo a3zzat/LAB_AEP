@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;fmc_imageon_gs_app/src/net/main.c&apos; to &apos;net_main.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/net/main.c" name="net_main.c" stamp="1466080555517" updateReferences="true"/>
-</session>
