@@ -16,5 +16,8 @@ ELFSIZE :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+src/video \
+src/net \
 src \
+src/audio \
 

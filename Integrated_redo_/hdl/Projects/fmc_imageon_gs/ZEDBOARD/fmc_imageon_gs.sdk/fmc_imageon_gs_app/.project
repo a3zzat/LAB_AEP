@@ -3,7 +3,7 @@
 	<name>fmc_imageon_gs_app</name>
 	<comment></comment>
 	<projects>
-		<project>AV_bsp</project>
+		<project>av_bsp_1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,0 +1,60 @@
+11:08:33 **** Incremental Build of configuration Debug for project Audio1 ****
+make all 
+Building file: ../src/audio.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -I../../av_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.d" -o "src/audio.o" "../src/audio.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\Audio1\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/Audio1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/audio.c: In function 'read_play':
+../src/audio.c:74:49: warning: unused variable 'temp' [-Wunused-variable]
+     u32 in_left, in_right, out_left, out_right, temp;
+                                                 ^
+../src/audio.c:74:38: warning: unused variable 'out_right' [-Wunused-variable]
+     u32 in_left, in_right, out_left, out_right, temp;
+                                      ^
+../src/audio.c:74:28: warning: unused variable 'out_left' [-Wunused-variable]
+     u32 in_left, in_right, out_left, out_right, temp;
+                            ^
+Finished building: ../src/audio.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../av_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\Audio1\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/Audio1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform.c
+ 
+Building target: Audio1.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../av_bsp_1/ps7_cortexa9_0/lib -o "Audio1.elf"  ./src/audio.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\Audio1\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/Audio1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: Audio1.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Audio1.elf  |tee "Audio1.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\Audio1\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/Audio1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  32420	   1168	  22644	  56232	   dba8	Audio1.elf
+Finished building: Audio1.elf.size
+ 
+
+11:08:35 Build Finished (took 1s.138ms)
+

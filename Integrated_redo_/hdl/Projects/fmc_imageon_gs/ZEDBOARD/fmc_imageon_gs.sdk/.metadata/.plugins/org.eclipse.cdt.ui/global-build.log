@@ -1,0 +1,74 @@
+15:28:24 **** Incremental Build of configuration Debug for project fmc_imageon_gs_app ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../av_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\fmc_imageon_gs_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/main.c:8:
+../../av_bsp_1/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../av_bsp_1/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/video/demo.h:7,
+                 from ../src/main.c:8:
+../../av_bsp_1/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../av_bsp_1/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/main.c:8:
+../../av_bsp_1/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../av_bsp_1/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/main.c:8:
+../../av_bsp_1/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/main.c:8:
+../../av_bsp_1/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/main.c:9:0:
+../src/video/avnet_console.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/main.c:10:0:
+../src/video/avnet_console_serial.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+Finished building: ../src/main.c
+ 
+Building target: fmc_imageon_gs_app.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../av_bsp_1/ps7_cortexa9_0/lib -o "fmc_imageon_gs_app.elf"  ./src/video/avnet_console.o ./src/video/avnet_console_scanput.o ./src/video/avnet_console_serial.o ./src/video/avnet_console_tokenize.o ./src/video/demo.o ./src/video/edid_fmc_imageon.o ./src/video/sleep.o ./src/video/xaxivdma_ext.o  ./src/net/echo.o ./src/net/i2c_access.o ./src/net/net_main.o ./src/net/platform.o ./src/net/platform_mb.o ./src/net/platform_ppc.o ./src/net/platform_zynq.o ./src/net/platform_zynqmp.o ./src/net/sfp.o ./src/net/si5324.o  ./src/audio/audio.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\fmc_imageon_gs_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: fmc_imageon_gs_app.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size fmc_imageon_gs_app.elf  |tee "fmc_imageon_gs_app.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\fmc_imageon_gs_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+ 156608	   5292	2152752	2314652	 23519c	fmc_imageon_gs_app.elf
+Finished building: fmc_imageon_gs_app.elf.size
+ 

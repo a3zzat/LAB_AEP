@@ -55,7 +55,7 @@ set rc [catch {
   set_property parent.project_path E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr [current_project]
   set_property ip_repo_paths {
   e:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.cache/ip
-  e:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/IP
+  E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/IP
   {E:/projects/xilinix/Zynq training repo/Zynq-SoC-Training/lab8/Source Code/ip_cores/zed_audio_ctrl}
 } [current_project]
   set_property ip_output_repo e:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.cache/ip [current_project]
