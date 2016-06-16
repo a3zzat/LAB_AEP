@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
+<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="eee087e3a62448dcbde26358149dbbe0"/>
