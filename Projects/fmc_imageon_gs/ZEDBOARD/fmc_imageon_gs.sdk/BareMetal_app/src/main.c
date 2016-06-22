@@ -31,33 +31,22 @@ int buflen;
 
 int main()
 {
-	xil_printf("\n\r");
-	xil_printf("------------------------------------------------------\n\r");
+
 	xil_printf("--              AudioChip(ADAU1761)                 --\n\r");
-	xil_printf("--             Getting Started Design               --\n\r");
-	xil_printf("------------------------------------------------------\n\r");
-	xil_printf("\n\r");
 
 	Audio_init();
 
-	xil_printf("\n\r");
-	xil_printf("------------------------------------------------------\n\r");
 	xil_printf("--                Gigabit-Ethernet                  --\n\r");
-	xil_printf("--              Getting Started Design              --\n\r");
-	xil_printf("------------------------------------------------------\n\r");
-	xil_printf("\n\r");
+
 
 	net_init(udp_1,udp_netif);
 	//register the function recv_callback as the call back for incoming functions
 	//this function will be called to process incoming package
 //	udp_recv(udp, udp_recv_callback, NULL );
 
-	xil_printf("\n\r");
-	xil_printf("------------------------------------------------------\n\r");
+	
 	xil_printf("--                    FMC-IMAGEON                   --\n\r");
-	xil_printf("--               Getting Started Design             --\n\r");
-	xil_printf("------------------------------------------------------\n\r");
-	xil_printf("\n\r");
+
 
 
 	pdemo = &demo;
