@@ -29,8 +29,7 @@ XIicPs Iic;
 
 int Audio_init(void)
 {
-    xil_printf("Digital Audio Processing\r\n");
-
+   
     //Configure the IIC data structure
     IicConfig(XPAR_XIICPS_0_DEVICE_ID);
 
