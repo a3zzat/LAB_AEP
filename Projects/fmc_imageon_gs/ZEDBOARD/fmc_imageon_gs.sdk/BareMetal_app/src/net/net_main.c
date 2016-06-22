@@ -132,7 +132,7 @@ int net_init(struct udp_pcb *udp_1,struct netif *netif)
     }
     else if (error == 0)
     {
-        xil_printf("Success\r\n");
+        xil_printf("udp_bind() completed successfully\r\n");
     }
     error = udp_connect(udp_1, &ip_remote, Port);
     if (error != 0)
@@ -141,7 +141,7 @@ int net_init(struct udp_pcb *udp_1,struct netif *netif)
     }
     else if (error == 0)
     {
-        xil_printf("Success\r\n");
+        xil_printf("udp_connect() completed successfully\r\n");
     }
 
 
