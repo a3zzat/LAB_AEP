@@ -96,7 +96,7 @@ xemacif_input(udp_netif);
 		xil_printf("error allocating AudioPuf\r\n");
  	}
  	 buflen = sizeof(AudioPuf);
-NetPuf = pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL);
+
  	if (!(NetPuf= pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL))) {
  		xil_printf("error allocating NetPuf\r\n");
 	}
