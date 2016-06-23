@@ -25,6 +25,7 @@ void LineinLineoutConfig();
 
 //Global variables
 XIicPs Iic;
+u32 in_left, in_right;
 
 
 int Audio_init(void)
@@ -70,7 +71,7 @@ int Audio_init(void)
 
 void read_play(AudioData_t* Audioval)
 {
-    u32 in_left, in_right;
+	 //u32 in_left, in_right;
 
 
 //    while (!XUartPs_IsReceiveData(UART_BASEADDR)){
@@ -87,6 +88,9 @@ void read_play(AudioData_t* Audioval)
 
 
         /* Output audio to the codec */
+        //In the final code, this should be commented out
+        //so that we don't play back the audio we receive
+        //from the same zedboard
         Xil_Out32(I2S_DATA_TX_L_REG, in_left);
         Xil_Out32(I2S_DATA_TX_R_REG, in_right);
 
@@ -95,7 +99,12 @@ void read_play(AudioData_t* Audioval)
 
 }
 
-
+void play_audio(AudioData_t* Audioval)
+{
+    /* Output audio to the codec */
+    Xil_Out32(I2S_DATA_TX_L_REG, Audioval->Audio_l);
+    Xil_Out32(I2S_DATA_TX_R_REG, Audioval->Audio_r);
+}
 /* ---------------------------------------------------------------------------- *
  * 									IicConfig()									*
  * ---------------------------------------------------------------------------- *
