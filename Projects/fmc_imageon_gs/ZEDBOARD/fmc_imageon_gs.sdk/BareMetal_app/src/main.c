@@ -129,7 +129,6 @@ xemacif_input(udp_netif);
 }
 
 void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *addr, u16_t port){
-	int i;
 
 	xil_printf("received  bytes at port  %d\n",pcb->local_port);
       if (p != NULL) {
