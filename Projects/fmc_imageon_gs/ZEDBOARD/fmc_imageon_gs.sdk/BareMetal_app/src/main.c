@@ -137,7 +137,7 @@ void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip
       //Send the audio bytes to the line out
       	AudioData_t* AudioOut;
       	AudioOut = p->payload;
-      	void play_audio(AudioOut);
+      	play_audio(AudioOut);
 
       	//Send the video bytes to the HDMI output
 
