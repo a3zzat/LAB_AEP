@@ -136,8 +136,15 @@ void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip
       	  printf("Received %d bytes: ", (*p).len);
       	  
       //Send the audio bytes to the line out
-      //Send the video bytes to the HDMI output
-            pbuf_free(p);
+      	AudioData_t* AudioOut;
+      	AudioOut = p->payload;
+      	void play_audio(AudioOut);
+
+      	//Send the video bytes to the HDMI output
+
+
+      	//------------------------------
+        pbuf_free(p);
       }
 }
 
