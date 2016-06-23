@@ -84,5 +84,5 @@ typedef struct AudioData {
 
 int Audio_init(void);
 void read_play(AudioData_t* Audioval);
-
+void play_audio(AudioData_t* Audioval);
 #endif
