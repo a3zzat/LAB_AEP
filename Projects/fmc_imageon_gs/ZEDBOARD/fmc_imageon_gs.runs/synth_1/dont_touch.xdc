@@ -89,11 +89,32 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_
 # IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_xlconstant_2_0/fmc_imageon_gs_xlconstant_2_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_xlconstant_2_0 || ORIG_REF_NAME==fmc_imageon_gs_xlconstant_2_0}]
 
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_dma_0_0/fmc_imageon_gs_axi_dma_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_axi_dma_0_0 || ORIG_REF_NAME==fmc_imageon_gs_axi_dma_0_0}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_interconnect_0_0/fmc_imageon_gs_axi_interconnect_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_axi_interconnect_0_0 || ORIG_REF_NAME==fmc_imageon_gs_axi_interconnect_0_0}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_interconnect_1_0/fmc_imageon_gs_axi_interconnect_1_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_axi_interconnect_1_0 || ORIG_REF_NAME==fmc_imageon_gs_axi_interconnect_1_0}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_s00_data_fifo_0/fmc_imageon_gs_s00_data_fifo_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_s00_data_fifo_0 || ORIG_REF_NAME==fmc_imageon_gs_s00_data_fifo_0}]
+
 # IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_0/fmc_imageon_gs_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_pc_0 || ORIG_REF_NAME==fmc_imageon_gs_auto_pc_0}]
 
 # IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_1/fmc_imageon_gs_auto_pc_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_pc_1 || ORIG_REF_NAME==fmc_imageon_gs_auto_pc_1}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_2/fmc_imageon_gs_auto_pc_2.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_pc_2 || ORIG_REF_NAME==fmc_imageon_gs_auto_pc_2}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_us_0/fmc_imageon_gs_auto_us_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_us_0 || ORIG_REF_NAME==fmc_imageon_gs_auto_us_0}]
+
+# IP: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_3/fmc_imageon_gs_auto_pc_3.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_pc_3 || ORIG_REF_NAME==fmc_imageon_gs_auto_pc_3}]
 
 # XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_processing_system7_0_0/fmc_imageon_gs_processing_system7_0_0.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_processing_system7_0_0 || ORIG_REF_NAME==fmc_imageon_gs_processing_system7_0_0}] {/inst }]/inst ]]
@@ -187,8 +208,27 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 
 # XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_v_vid_in_axi4s_1_0/fmc_imageon_gs_v_vid_in_axi4s_1_0_ooc.xdc
 
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_dma_0_0/fmc_imageon_gs_axi_dma_0_0_ooc.xdc
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_dma_0_0/fmc_imageon_gs_axi_dma_0_0.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_axi_dma_0_0 || ORIG_REF_NAME==fmc_imageon_gs_axi_dma_0_0}] {/U0 }]/U0 ]]
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_axi_dma_0_0/fmc_imageon_gs_axi_dma_0_0_clocks.xdc
+#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_axi_dma_0_0 || ORIG_REF_NAME==fmc_imageon_gs_axi_dma_0_0}] {/U0 }]/U0 ]]
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_s00_data_fifo_0/fmc_imageon_gs_s00_data_fifo_0_ooc.xdc
+
 # XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_0/fmc_imageon_gs_auto_pc_0_ooc.xdc
 
 # XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_1/fmc_imageon_gs_auto_pc_1_ooc.xdc
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_2/fmc_imageon_gs_auto_pc_2_ooc.xdc
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_us_0/fmc_imageon_gs_auto_us_0_ooc.xdc
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_us_0/fmc_imageon_gs_auto_us_0_clocks.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==fmc_imageon_gs_auto_us_0 || ORIG_REF_NAME==fmc_imageon_gs_auto_us_0}] {/inst }]/inst ]]
+
+# XDC: bd/fmc_imageon_gs/ip/fmc_imageon_gs_auto_pc_3/fmc_imageon_gs_auto_pc_3_ooc.xdc
 
 # XDC: bd/fmc_imageon_gs/fmc_imageon_gs_ooc.xdc

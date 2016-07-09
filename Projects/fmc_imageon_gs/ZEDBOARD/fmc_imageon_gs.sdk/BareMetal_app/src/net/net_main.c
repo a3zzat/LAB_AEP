@@ -1,5 +1,19 @@
 #include "net_main.h"
 
+
+#include <stdio.h>
+#include <string.h>
+#include "lwip/udp.h"
+#include "xparameters.h"
+#include "netif/xadapter.h"
+#include "platform.h"
+#include "platform_config.h"
+#include "lwipopts.h"
+#ifndef __PPC__
+#include "xil_printf.h"
+#endif
+
+
 void print_headers();
 int start_applications();
 int transfer_data();
@@ -16,7 +30,7 @@ extern volatile int TxPerfConnMonCntr;
 extern volatile int TcpFastTmrFlag;
 extern volatile int TcpSlowTmrFlag;
 extern struct netif *echo_netif;
-
+/*
 void print_ip(char *msg, struct ip_addr *ip)
 {
     print(msg);
@@ -30,7 +44,7 @@ void print_ip_settings(struct ip_addr *ip, struct ip_addr *mask, struct ip_addr 
     print_ip("Netmask :       ", mask);
     print_ip("Gateway :       ", gw);
 }
-
+*/
 int net_init(struct udp_pcb *udp_1,struct netif *netif)
 {
     struct netif server_netif;
@@ -119,7 +133,7 @@ int net_init(struct udp_pcb *udp_1,struct netif *netif)
 #endif
 
     /* start the application (web server, rxtest, txtest, etc..) */
-   xil_printf("Setup Done");
+   xil_printf("Setup Done \n");
     IP4_ADDR(&ip_remote,  192, 168,   1, 11);
 
     udp_1 = udp_new();
@@ -144,32 +158,40 @@ int net_init(struct udp_pcb *udp_1,struct netif *netif)
         xil_printf("udp_connect() completed successfully\r\n");
     }
 
+/*
+    char data[8] = "01234567";
+        int buflen = 8;
+        int count = 0;
+        struct pbuf  *p;
 
-//   while (1)
-//   {
-//        xemacif_input(netif);
-//        count++;
-//        if (count == 80000)
-//        {
-//            p = pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL);
-//            if (!p) {
-//                xil_printf("error allocating pbuf\r\n");
-//                return ERR_MEM;
-//            }
-//            memcpy(p->payload, data, buflen);
-//            udp_send(udp_1, p);
-//            xil_printf("SEND\r\n");
-//            count = 0;
-//            pbuf_free(p);
-//        }
-//
-//    }
+   while (1)
+   {
+        xemacif_input(netif);
+        count++;
+        if (count == 80000)
+        {
+            p = pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL);
+            if (!p) {
+                xil_printf("error allocating pbuf\r\n");
+                return ERR_MEM;
+            }
+            memcpy(p->payload, data, buflen);
+            udp_send(udp_1, p);
+            xil_printf("SEND\r\n");
+            count = 0;
+            pbuf_free(p);
+        }
 
+    }
+*/
     return 0;
 }
+/*
 void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, ip_addr_t *addr, u16_t port)
 {
 //	GetUserCallback();
 
 
 }
+
+*/

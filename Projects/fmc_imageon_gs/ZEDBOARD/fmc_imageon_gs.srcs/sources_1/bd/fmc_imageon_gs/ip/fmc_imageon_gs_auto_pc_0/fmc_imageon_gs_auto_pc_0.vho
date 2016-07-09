@@ -56,7 +56,7 @@ COMPONENT fmc_imageon_gs_auto_pc_0
   PORT (
     aclk : IN STD_LOGIC;
     aresetn : IN STD_LOGIC;
-    s_axi_awid : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi_awid : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s_axi_awaddr : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_awlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
     s_axi_awsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -73,11 +73,11 @@ COMPONENT fmc_imageon_gs_auto_pc_0
     s_axi_wlast : IN STD_LOGIC;
     s_axi_wvalid : IN STD_LOGIC;
     s_axi_wready : OUT STD_LOGIC;
-    s_axi_bid : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi_bid : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     s_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s_axi_bvalid : OUT STD_LOGIC;
     s_axi_bready : IN STD_LOGIC;
-    s_axi_arid : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi_arid : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s_axi_araddr : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axi_arlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
     s_axi_arsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -89,13 +89,13 @@ COMPONENT fmc_imageon_gs_auto_pc_0
     s_axi_arqos : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s_axi_arvalid : IN STD_LOGIC;
     s_axi_arready : OUT STD_LOGIC;
-    s_axi_rid : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi_rid : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     s_axi_rdata : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
     s_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
     s_axi_rlast : OUT STD_LOGIC;
     s_axi_rvalid : OUT STD_LOGIC;
     s_axi_rready : IN STD_LOGIC;
-    m_axi_awid : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_awid : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     m_axi_awaddr : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     m_axi_awlen : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     m_axi_awsize : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -106,17 +106,17 @@ COMPONENT fmc_imageon_gs_auto_pc_0
     m_axi_awqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     m_axi_awvalid : OUT STD_LOGIC;
     m_axi_awready : IN STD_LOGIC;
-    m_axi_wid : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_wid : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     m_axi_wdata : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
     m_axi_wstrb : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
     m_axi_wlast : OUT STD_LOGIC;
     m_axi_wvalid : OUT STD_LOGIC;
     m_axi_wready : IN STD_LOGIC;
-    m_axi_bid : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_bid : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     m_axi_bresp : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
     m_axi_bvalid : IN STD_LOGIC;
     m_axi_bready : OUT STD_LOGIC;
-    m_axi_arid : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_arid : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     m_axi_araddr : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     m_axi_arlen : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     m_axi_arsize : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -127,7 +127,7 @@ COMPONENT fmc_imageon_gs_auto_pc_0
     m_axi_arqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     m_axi_arvalid : OUT STD_LOGIC;
     m_axi_arready : IN STD_LOGIC;
-    m_axi_rid : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_rid : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     m_axi_rdata : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
     m_axi_rresp : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
     m_axi_rlast : IN STD_LOGIC;

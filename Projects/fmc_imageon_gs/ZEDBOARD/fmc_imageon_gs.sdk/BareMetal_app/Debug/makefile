@@ -38,7 +38,7 @@ all: BareMetal_app.elf secondary-outputs
 BareMetal_app.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM gcc linker'
-	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "BareMetal_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp_1/ps7_cortexa9_0/lib -o "BareMetal_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

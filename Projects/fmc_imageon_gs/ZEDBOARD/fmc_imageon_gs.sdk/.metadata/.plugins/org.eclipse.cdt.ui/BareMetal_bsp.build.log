@@ -1,4 +1,4 @@
-17:22:43 **** Build of project BareMetal_bsp ****
+11:23:08 **** Build of project BareMetal_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
 E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -55,7 +55,6 @@ E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcp
 "Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
 E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 "Compiling axivdma"
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 "Running Make libs in ps7_cortexa9_0/libsrc/cfa_v7_0/src"
 E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cfa_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 "Compiling cfa"
@@ -197,5 +196,5 @@ E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcp
 "Compiling xadcps"
 'Finished building libraries'
 
-17:23:31 Build Finished (took 48s.244ms)
+11:23:48 Build Finished (took 39s.292ms)
 

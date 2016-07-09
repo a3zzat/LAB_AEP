@@ -1,39 +1,6 @@
-17:27:29 **** Incremental Build of configuration Debug for project BareMetal_app ****
+13:27:32 **** Incremental Build of configuration Debug for project BareMetal_app ****
 make all 
-Building file: ../src/net/net_main.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/net_main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/net_main.d" -MT"src/net/net_main.d" -o "src/net/net_main.o" "../src/net/net_main.c"
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-Finished building: ../src/net/net_main.c
- 
-Building target: BareMetal_app.elf
-Invoking: ARM gcc linker
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "BareMetal_app.elf"  ./src/video/avnet_console.o ./src/video/avnet_console_scanput.o ./src/video/avnet_console_serial.o ./src/video/avnet_console_tokenize.o ./src/video/demo.o ./src/video/edid_fmc_imageon.o ./src/video/sleep.o ./src/video/xaxivdma_ext.o  ./src/net/echo.o ./src/net/i2c_access.o ./src/net/net_main.o ./src/net/platform.o ./src/net/platform_mb.o ./src/net/platform_ppc.o ./src/net/platform_zynq.o ./src/net/platform_zynqmp.o ./src/net/sfp.o ./src/net/si5324.o  ./src/audio/audio.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-Finished building target: BareMetal_app.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size BareMetal_app.elf  |tee "BareMetal_app.elf.size"
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-   text	   data	    bss	    dec	    hex	filename
- 156780	   5292	2152752	2314824	 235248	BareMetal_app.elf
-Finished building: BareMetal_app.elf.size
- 
+make: Nothing to be done for `all'.
 
-17:27:30 Build Finished (took 1s.383ms)
+13:27:32 Build Finished (took 281ms)
 

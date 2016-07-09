@@ -15,6 +15,7 @@
 		<item value="false" key="caseSensitive"/>
 		<item value="227191" key="searchFlags"/>
 		<list key="previousPatterns">
+			<item value="incorrectconfiguration:unknowntemactype"/>
 			<item value="start_udp"/>
 			<item value="echo_netif"/>
 			<item value="usleep"/>

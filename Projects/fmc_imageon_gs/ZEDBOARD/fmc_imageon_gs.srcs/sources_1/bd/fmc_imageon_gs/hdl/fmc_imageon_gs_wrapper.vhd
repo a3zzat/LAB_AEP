@@ -1,7 +1,7 @@
 --Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
---Date        : Tue Jun 07 15:43:47 2016
+--Date        : Tue Jul 05 13:22:07 2016
 --Host        : MyIdeaPad running 64-bit major release  (build 9200)
 --Command     : generate_target fmc_imageon_gs_wrapper.bd
 --Design      : fmc_imageon_gs_wrapper
@@ -118,15 +118,15 @@ architecture STRUCTURE of fmc_imageon_gs_wrapper is
     fmc_imageon_iic_sda_i : in STD_LOGIC;
     fmc_imageon_iic_sda_o : out STD_LOGIC;
     fmc_imageon_iic_sda_t : out STD_LOGIC;
-    IO_HDMII_clk : in STD_LOGIC;
-    fmc_imageon_vclk : in STD_LOGIC;
-    fmc_imageon_iic_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     IIC_1_sda_i : in STD_LOGIC;
     IIC_1_sda_o : out STD_LOGIC;
     IIC_1_sda_t : out STD_LOGIC;
     IIC_1_scl_i : in STD_LOGIC;
     IIC_1_scl_o : out STD_LOGIC;
     IIC_1_scl_t : out STD_LOGIC;
+    IO_HDMII_clk : in STD_LOGIC;
+    fmc_imageon_vclk : in STD_LOGIC;
+    fmc_imageon_iic_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     FCLK_CLK3 : out STD_LOGIC;
     SDATA_I : in STD_LOGIC;
     BCLK : out STD_LOGIC;

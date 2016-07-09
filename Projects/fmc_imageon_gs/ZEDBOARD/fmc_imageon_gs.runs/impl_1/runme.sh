@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1'
+HD_PWD='E:/projects/xilinix/master_repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -151,6 +151,51 @@ fmc_imageon_gs_processing_system7_0_0 your_instance_name (
   .S_AXI_HP0_WID(S_AXI_HP0_WID),                        // input wire [5 : 0] S_AXI_HP0_WID
   .S_AXI_HP0_WDATA(S_AXI_HP0_WDATA),                    // input wire [63 : 0] S_AXI_HP0_WDATA
   .S_AXI_HP0_WSTRB(S_AXI_HP0_WSTRB),                    // input wire [7 : 0] S_AXI_HP0_WSTRB
+  .S_AXI_HP1_ARREADY(S_AXI_HP1_ARREADY),                // output wire S_AXI_HP1_ARREADY
+  .S_AXI_HP1_AWREADY(S_AXI_HP1_AWREADY),                // output wire S_AXI_HP1_AWREADY
+  .S_AXI_HP1_BVALID(S_AXI_HP1_BVALID),                  // output wire S_AXI_HP1_BVALID
+  .S_AXI_HP1_RLAST(S_AXI_HP1_RLAST),                    // output wire S_AXI_HP1_RLAST
+  .S_AXI_HP1_RVALID(S_AXI_HP1_RVALID),                  // output wire S_AXI_HP1_RVALID
+  .S_AXI_HP1_WREADY(S_AXI_HP1_WREADY),                  // output wire S_AXI_HP1_WREADY
+  .S_AXI_HP1_BRESP(S_AXI_HP1_BRESP),                    // output wire [1 : 0] S_AXI_HP1_BRESP
+  .S_AXI_HP1_RRESP(S_AXI_HP1_RRESP),                    // output wire [1 : 0] S_AXI_HP1_RRESP
+  .S_AXI_HP1_BID(S_AXI_HP1_BID),                        // output wire [5 : 0] S_AXI_HP1_BID
+  .S_AXI_HP1_RID(S_AXI_HP1_RID),                        // output wire [5 : 0] S_AXI_HP1_RID
+  .S_AXI_HP1_RDATA(S_AXI_HP1_RDATA),                    // output wire [63 : 0] S_AXI_HP1_RDATA
+  .S_AXI_HP1_RCOUNT(S_AXI_HP1_RCOUNT),                  // output wire [7 : 0] S_AXI_HP1_RCOUNT
+  .S_AXI_HP1_WCOUNT(S_AXI_HP1_WCOUNT),                  // output wire [7 : 0] S_AXI_HP1_WCOUNT
+  .S_AXI_HP1_RACOUNT(S_AXI_HP1_RACOUNT),                // output wire [2 : 0] S_AXI_HP1_RACOUNT
+  .S_AXI_HP1_WACOUNT(S_AXI_HP1_WACOUNT),                // output wire [5 : 0] S_AXI_HP1_WACOUNT
+  .S_AXI_HP1_ACLK(S_AXI_HP1_ACLK),                      // input wire S_AXI_HP1_ACLK
+  .S_AXI_HP1_ARVALID(S_AXI_HP1_ARVALID),                // input wire S_AXI_HP1_ARVALID
+  .S_AXI_HP1_AWVALID(S_AXI_HP1_AWVALID),                // input wire S_AXI_HP1_AWVALID
+  .S_AXI_HP1_BREADY(S_AXI_HP1_BREADY),                  // input wire S_AXI_HP1_BREADY
+  .S_AXI_HP1_RDISSUECAP1_EN(S_AXI_HP1_RDISSUECAP1_EN),  // input wire S_AXI_HP1_RDISSUECAP1_EN
+  .S_AXI_HP1_RREADY(S_AXI_HP1_RREADY),                  // input wire S_AXI_HP1_RREADY
+  .S_AXI_HP1_WLAST(S_AXI_HP1_WLAST),                    // input wire S_AXI_HP1_WLAST
+  .S_AXI_HP1_WRISSUECAP1_EN(S_AXI_HP1_WRISSUECAP1_EN),  // input wire S_AXI_HP1_WRISSUECAP1_EN
+  .S_AXI_HP1_WVALID(S_AXI_HP1_WVALID),                  // input wire S_AXI_HP1_WVALID
+  .S_AXI_HP1_ARBURST(S_AXI_HP1_ARBURST),                // input wire [1 : 0] S_AXI_HP1_ARBURST
+  .S_AXI_HP1_ARLOCK(S_AXI_HP1_ARLOCK),                  // input wire [1 : 0] S_AXI_HP1_ARLOCK
+  .S_AXI_HP1_ARSIZE(S_AXI_HP1_ARSIZE),                  // input wire [2 : 0] S_AXI_HP1_ARSIZE
+  .S_AXI_HP1_AWBURST(S_AXI_HP1_AWBURST),                // input wire [1 : 0] S_AXI_HP1_AWBURST
+  .S_AXI_HP1_AWLOCK(S_AXI_HP1_AWLOCK),                  // input wire [1 : 0] S_AXI_HP1_AWLOCK
+  .S_AXI_HP1_AWSIZE(S_AXI_HP1_AWSIZE),                  // input wire [2 : 0] S_AXI_HP1_AWSIZE
+  .S_AXI_HP1_ARPROT(S_AXI_HP1_ARPROT),                  // input wire [2 : 0] S_AXI_HP1_ARPROT
+  .S_AXI_HP1_AWPROT(S_AXI_HP1_AWPROT),                  // input wire [2 : 0] S_AXI_HP1_AWPROT
+  .S_AXI_HP1_ARADDR(S_AXI_HP1_ARADDR),                  // input wire [31 : 0] S_AXI_HP1_ARADDR
+  .S_AXI_HP1_AWADDR(S_AXI_HP1_AWADDR),                  // input wire [31 : 0] S_AXI_HP1_AWADDR
+  .S_AXI_HP1_ARCACHE(S_AXI_HP1_ARCACHE),                // input wire [3 : 0] S_AXI_HP1_ARCACHE
+  .S_AXI_HP1_ARLEN(S_AXI_HP1_ARLEN),                    // input wire [3 : 0] S_AXI_HP1_ARLEN
+  .S_AXI_HP1_ARQOS(S_AXI_HP1_ARQOS),                    // input wire [3 : 0] S_AXI_HP1_ARQOS
+  .S_AXI_HP1_AWCACHE(S_AXI_HP1_AWCACHE),                // input wire [3 : 0] S_AXI_HP1_AWCACHE
+  .S_AXI_HP1_AWLEN(S_AXI_HP1_AWLEN),                    // input wire [3 : 0] S_AXI_HP1_AWLEN
+  .S_AXI_HP1_AWQOS(S_AXI_HP1_AWQOS),                    // input wire [3 : 0] S_AXI_HP1_AWQOS
+  .S_AXI_HP1_ARID(S_AXI_HP1_ARID),                      // input wire [5 : 0] S_AXI_HP1_ARID
+  .S_AXI_HP1_AWID(S_AXI_HP1_AWID),                      // input wire [5 : 0] S_AXI_HP1_AWID
+  .S_AXI_HP1_WID(S_AXI_HP1_WID),                        // input wire [5 : 0] S_AXI_HP1_WID
+  .S_AXI_HP1_WDATA(S_AXI_HP1_WDATA),                    // input wire [63 : 0] S_AXI_HP1_WDATA
+  .S_AXI_HP1_WSTRB(S_AXI_HP1_WSTRB),                    // input wire [7 : 0] S_AXI_HP1_WSTRB
   .FCLK_CLK0(FCLK_CLK0),                                // output wire FCLK_CLK0
   .FCLK_CLK1(FCLK_CLK1),                                // output wire FCLK_CLK1
   .FCLK_CLK2(FCLK_CLK2),                                // output wire FCLK_CLK2

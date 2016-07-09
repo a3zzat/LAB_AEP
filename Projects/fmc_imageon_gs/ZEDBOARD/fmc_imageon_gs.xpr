@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
+<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="eee087e3a62448dcbde26358149dbbe0"/>
@@ -20,7 +20,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../IP"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/ip_cores/zed_audio_ctrl"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/ip_cores/zed_audio_ctrl"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
     <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
     <Option Name="IPUserFilesDir" Val="$PPRDIR/fmc_imageon_gs.ip_user_files"/>
@@ -36,6 +36,47 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xbar_0/fmc_imageon_gs_xbar_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_fmc_imageon_iic_0_0/fmc_imageon_gs_fmc_imageon_iic_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_vdma_1_0/fmc_imageon_gs_axi_vdma_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_vdma_0_0/fmc_imageon_gs_axi_vdma_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_avnet_hdmi_in_0_0/fmc_imageon_gs_avnet_hdmi_in_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_tc_0_0/fmc_imageon_gs_v_tc_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_rgb2ycrcb_0_0/fmc_imageon_gs_v_rgb2ycrcb_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_osd_0_0/fmc_imageon_gs_v_osd_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_cresample_0_0/fmc_imageon_gs_v_cresample_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_cfa_0_0/fmc_imageon_gs_v_cfa_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_processing_system7_0_0/fmc_imageon_gs_processing_system7_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_mem_intercon_0/fmc_imageon_gs_axi_mem_intercon_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_avnet_hdmi_out_0_0/fmc_imageon_gs_avnet_hdmi_out_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_interconnect_0_0/fmc_imageon_gs_axi_interconnect_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xlconstant_2_0/fmc_imageon_gs_xlconstant_2_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_zed_audio_ctrl_0_0/fmc_imageon_gs_zed_audio_ctrl_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xlconstant_1_0/fmc_imageon_gs_xlconstant_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xlconstant_0_0/fmc_imageon_gs_xlconstant_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_vid_in_axi4s_1_0/fmc_imageon_gs_v_vid_in_axi4s_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_processing_system7_0_axi_periph_0/fmc_imageon_gs_processing_system7_0_axi_periph_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_onsemi_vita_spi_0_0/fmc_imageon_gs_onsemi_vita_spi_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_dma_0_0/fmc_imageon_gs_axi_dma_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hdl/fmc_imageon_gs.vhd"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_axi4s_vid_out_0_0/fmc_imageon_gs_v_axi4s_vid_out_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_76M_0/fmc_imageon_gs_rst_processing_system7_0_76M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_149M_0/fmc_imageon_gs_rst_processing_system7_0_149M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_rst_processing_system7_0_148_5M_0/fmc_imageon_gs_rst_processing_system7_0_148_5M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_xbar_1/fmc_imageon_gs_xbar_1.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_v_vid_in_axi4s_0_0/fmc_imageon_gs_v_vid_in_axi4s_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_onsemi_vita_cam_0_0/fmc_imageon_gs_onsemi_vita_cam_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_2/fmc_imageon_gs_auto_pc_2.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_0/fmc_imageon_gs_auto_pc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_axi_interconnect_1_0/fmc_imageon_gs_axi_interconnect_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="fmc_imageon_gs_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_s00_data_fifo_0/fmc_imageon_gs_s00_data_fifo_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_3/fmc_imageon_gs_auto_pc_3.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_pc_1/fmc_imageon_gs_auto_pc_1.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="ip/fmc_imageon_gs_auto_us_0/fmc_imageon_gs_auto_us_0.xci"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hw_handoff/fmc_imageon_gs_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hw_handoff/fmc_imageon_gs.hwh"/>
+        <CompFileExtendedInfo CompFileName="fmc_imageon_gs.bd" FileRelPathName="hdl/fmc_imageon_gs.hwdef"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/fmc_imageon_gs/hdl/fmc_imageon_gs_wrapper.vhd">
         <FileInfo>
@@ -61,7 +102,7 @@
       </File>
       <File Path="$PSRCDIR/constrs_1/imports/xilinix/Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc"/>
           <Attr Name="ImportTime" Val="1464295940"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="incorrect configuration: unknown temac type"/>
 			<item value="udp_recv"/>
 			<item value="server_netif"/>
 			<item value="netif"/>
@@ -15,7 +16,6 @@
 			<item value="p"/>
 			<item value="echo"/>
 			<item value="avnet_console"/>
-			<item value="echo_netif"/>
 		</list>
 		<list key="replacehistory">
 		</list>
