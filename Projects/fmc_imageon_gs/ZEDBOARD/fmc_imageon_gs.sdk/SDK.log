@@ -755,3 +755,49 @@ Caused by: java.lang.NullPointerException
 		 .\SwRepo
 17:33:44 INFO  : Processing command line option -hwspec E:/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf.
 17:33:46 INFO  : Checking for hwspec changes in the project BareMetal_hw.
+02:38:16 INFO  : Launching XSDB server: xsdb.bat E:/ProgramFiles/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+02:38:20 INFO  : XSDB server has started successfully.
+02:38:26 INFO  : Restoring local repository preferences: 
+		 .\SwRepo
+02:38:26 INFO  : Processing command line option -hwspec E:/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf.
+09:06:00 WARN  : Hardware Project 'fmc_imageon_gs_wrapper_hw_platform_1' referenced by launch configuration 'net.elf' doesn't exist in the workspace.
+09:06:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:06:34 INFO  : ps7_init is completed.
+09:06:35 INFO  : ps7_post_config is completed.
+09:06:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:12:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:12:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469459" && level==0} -index 1' command is executed.
+09:12:54 INFO  : FPGA configured successfully with bitstream "E:/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_hw/fmc_imageon_gs_wrapper.bit"
+09:16:49 WARN  : Hardware Project 'fmc_imageon_gs_wrapper_hw_platform_1' referenced by launch configuration 'net.elf' doesn't exist in the workspace.
+09:16:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:16:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:19:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:19:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:22:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:22:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:22:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:24:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:24:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:26:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:27:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:27:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:27:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:25:04 INFO  : Launching XSDB server: xsdb.bat E:/ProgramFiles/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:25:11 INFO  : XSDB server has started successfully.
+13:25:11 INFO  : Restoring local repository preferences: 
+		 .\SwRepo
+13:25:11 INFO  : Processing command line option -hwspec E:/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/fmc_imageon_gs_wrapper.hdf.
+13:25:12 INFO  : Checking for hwspec changes in the project fmc_imageon_gs_wrapper_hw_platform_0.
+13:26:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:26:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248564685" && level==0} -index 1' command is executed.
+13:26:36 INFO  : FPGA configured successfully with bitstream "E:/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_hw/fmc_imageon_gs_wrapper.bit"
+13:27:12 INFO  : ps7_init is completed.
+13:27:13 INFO  : ps7_post_config is completed.
+13:27:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:27:13 ERROR : No such port: COM5
+13:27:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:27:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:27:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:27:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:29:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

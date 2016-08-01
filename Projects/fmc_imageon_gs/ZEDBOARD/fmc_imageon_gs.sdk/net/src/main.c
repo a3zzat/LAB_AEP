@@ -85,7 +85,7 @@ int main()
 //    }
 
     xil_printf("\r\n\r\n");
-    xil_printf("-----lwIP RAW Mode Demo Application ------\r\n");
+    xil_printf("-----lwIP RAW Mode Application ------\r\n");
     /* initliaze IP addresses to be used */
 #if (LWIP_DHCP==0)
     IP4_ADDR(&ipaddr,  192, 168,   1, 10);
@@ -148,7 +148,7 @@ int main()
 
     /* start the application (web server, rxtest, txtest, etc..) */
    xil_printf("Setup Done");
-    IP4_ADDR(&ip_remote,  192, 168,   1, 11);
+    IP4_ADDR(&ip_remote,  192, 168,  1, 11);
 
     udp_1 = udp_new();
 
@@ -186,7 +186,7 @@ int main()
             }
             memcpy(p->payload, data, buflen);
             udp_send(udp_1, p);
-            xil_printf("SEND\r\n");
+            xil_printf(" SEND DATA \r\n");
             count = 0;
             pbuf_free(p);
         }

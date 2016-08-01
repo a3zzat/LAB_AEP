@@ -1,22 +1,725 @@
-17:27:29 **** Incremental Build of configuration Debug for project BareMetal_app ****
+08:33:14 **** Build of project BareMetal_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cfa_v7_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cfa_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/onsemi_vita_sw_v3_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/onsemi_vita_sw_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/osd_v4_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/osd_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cfa_v7_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cfa_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cfa"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling fmc_iic_sw"
+In file included from fmc_iic.h:57:0,
+                 from fmc_iic_axi.c:61:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from fmc_iic.h:57:0,
+                 from fmc_iic_sg.c:61:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+"Running Make libs in ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling fmc_imageon_sw"
+In file included from ../../../include/fmc_iic.h:57:0,
+                 from fmc_imageon.c:76:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling lwip src and adapter files"
+"Running Make libs in ps7_cortexa9_0/libsrc/onsemi_vita_sw_v3_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/onsemi_vita_sw_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ON Semiconductor VITA Camera Receiver Library..."
+In file included from ../../../include/onsemi_vita_sw.h:89:0,
+                 from onsemi_vita_sw.c:85:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+onsemi_vita_sw.c: In function 'onsemi_vita_set_analog_gain':
+onsemi_vita_sw.c:1497:12: warning: assignment from incompatible pointer type
+    seqData = &(vita_spi_again_values[id][0]);
+            ^
+onsemi_vita_sw.c:1503:51: warning: passing argument 2 of 'onsemi_vita_spi_display_sequence' from incompatible pointer type
+       onsemi_vita_spi_display_sequence( pContext, seqData, seqLen );
+                                                   ^
+onsemi_vita_sw.c:798:5: note: expected 'Xuint16 (*)[3]' but argument is of type 'Xuint16 **'
+ int onsemi_vita_spi_display_sequence( onsemi_vita_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^
+onsemi_vita_sw.c:1505:46: warning: passing argument 2 of 'onsemi_vita_spi_write_sequence' from incompatible pointer type
+    onsemi_vita_spi_write_sequence( pContext, seqData, seqLen );
+                                              ^
+onsemi_vita_sw.c:751:5: note: expected 'Xuint16 (*)[3]' but argument is of type 'Xuint16 **'
+ int onsemi_vita_spi_write_sequence( onsemi_vita_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^
+onsemi_vita_sw.c: In function 'onsemi_vita_set_digital_gain':
+onsemi_vita_sw.c:1534:12: warning: assignment from incompatible pointer type
+    seqData = &(vita_spi_dgain_values[0][0]);
+            ^
+onsemi_vita_sw.c:1540:48: warning: passing argument 2 of 'onsemi_vita_spi_display_sequence' from incompatible pointer type
+    onsemi_vita_spi_display_sequence( pContext, seqData, seqLen );
+                                                ^
+onsemi_vita_sw.c:798:5: note: expected 'Xuint16 (*)[3]' but argument is of type 'Xuint16 **'
+ int onsemi_vita_spi_display_sequence( onsemi_vita_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^
+onsemi_vita_sw.c:1542:46: warning: passing argument 2 of 'onsemi_vita_spi_write_sequence' from incompatible pointer type
+    onsemi_vita_spi_write_sequence( pContext, seqData, seqLen );
+                                              ^
+onsemi_vita_sw.c:751:5: note: expected 'Xuint16 (*)[3]' but argument is of type 'Xuint16 **'
+ int onsemi_vita_spi_write_sequence( onsemi_vita_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^
+"Running Make libs in ps7_cortexa9_0/libsrc/osd_v4_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/osd_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling osd"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+08:33:51 **** Build of configuration Debug for project net ****
 make all 
+Building file: ../src/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/echo.c
+ 
+Building file: ../src/i2c_access.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.d" -o "src/i2c_access.o" "../src/i2c_access.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/i2c_access.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_mb.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.d" -o "src/platform_mb.o" "../src/platform_mb.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform_mb.c
+ 
+Building file: ../src/platform_ppc.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.d" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform_ppc.c
+ 
+Building file: ../src/platform_zynq.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.d" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform_zynq.c
+ 
+Building file: ../src/platform_zynqmp.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.d" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform_zynqmp.c
+ 
+Building file: ../src/sfp.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.d" -o "src/sfp.o" "../src/sfp.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/sfp.c
+ 
+Building file: ../src/si5324.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.d" -o "src/si5324.o" "../src/si5324.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/si5324.c
+ 
+Building target: net.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: net.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  95252	   3036	2218288	2316576	 235920	net.elf
+Finished building: net.elf.size
+ 
+09:06:02 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+Building file: ../src/video/avnet_console.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/avnet_console.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/avnet_console.d" -MT"src/video/avnet_console.d" -o "src/video/avnet_console.o" "../src/video/avnet_console.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/video/avnet_console.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/avnet_console.c:52:0:
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/avnet_console.c:65:0:
+../src/video/avnet_console.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console.c:65:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console.c:65:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console.c:65:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console.c:65:
+../../BareMetal_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/avnet_console.c:66:0:
+../src/video/avnet_console_scanput.h:3:1: warning: multi-line comment [-Wcomment]
+ //--   /     \
+ ^
+Finished building: ../src/video/avnet_console.c
+ 
+Building file: ../src/video/avnet_console_serial.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/avnet_console_serial.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/avnet_console_serial.d" -MT"src/video/avnet_console_serial.d" -o "src/video/avnet_console_serial.o" "../src/video/avnet_console_serial.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/video/avnet_console_serial.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/avnet_console_serial.c:62:0:
+../src/video/avnet_console.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console_serial.c:62:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/video/demo.h:7,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console_serial.c:62:
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console_serial.c:62:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console_serial.c:62:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/video/avnet_console.h:48,
+                 from ../src/video/avnet_console_serial.c:62:
+../../BareMetal_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/video/avnet_console_serial.c: In function 'transfer_avnet_console_serial_data':
+../src/video/avnet_console_serial.c:357:8: warning: unused variable 'input' [-Wunused-variable]
+    int input;
+        ^
+Finished building: ../src/video/avnet_console_serial.c
+ 
+Building file: ../src/video/demo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/demo.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/demo.d" -MT"src/video/demo.d" -o "src/video/demo.o" "../src/video/demo.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/video/demo.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/video/demo.h:7,
+                 from ../src/video/demo.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/video/demo.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/video/demo.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/video/demo.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/video/demo.c: In function 'demo_init':
+../src/video/demo.c:45:4: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+    exit(0);
+    ^
+../src/video/demo.c:45:4: warning: incompatible implicit declaration of built-in function 'exit'
+../src/video/demo.c: In function 'demo_start_hdmi_in':
+../src/video/demo.c:110:7: warning: incompatible implicit declaration of built-in function 'exit'
+       exit(0);
+       ^
+../src/video/demo.c: In function 'demo_init_frame_buffer':
+../src/video/demo.c:247:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/video/demo.c:215:22: warning: unused variable 'pStorageMem2' [-Wunused-variable]
+    volatile Xuint16 *pStorageMem2 = (Xuint16 *)0x18000000;
+                      ^
+Finished building: ../src/video/demo.c
+ 
+Building file: ../src/video/edid_fmc_imageon.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/edid_fmc_imageon.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/edid_fmc_imageon.d" -MT"src/video/edid_fmc_imageon.d" -o "src/video/edid_fmc_imageon.o" "../src/video/edid_fmc_imageon.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/video/edid_fmc_imageon.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/video/demo.h:7,
+                 from ../src/video/edid_fmc_imageon.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/video/edid_fmc_imageon.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/video/edid_fmc_imageon.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/video/edid_fmc_imageon.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+Finished building: ../src/video/edid_fmc_imageon.c
+ 
+Building file: ../src/video/sleep.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/sleep.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/sleep.d" -MT"src/video/sleep.d" -o "src/video/sleep.o" "../src/video/sleep.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/video/sleep.c: In function 'usleep':
+../src/video/sleep.c:31:3: warning: 'return' with a value, in function returning void
+   return 0;
+   ^
+../src/video/sleep.c:36:3: warning: 'return' with a value, in function returning void
+   return -1;
+   ^
+../src/video/sleep.c:89:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf( "[usleep] ERROR : function terminated too early ...\r\n" );
+     ^
+../src/video/sleep.c:90:8: warning: 'return' with a value, in function returning void
+        return -1;
+        ^
+Finished building: ../src/video/sleep.c
+ 
+Building file: ../src/video/xaxivdma_ext.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video/xaxivdma_ext.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video/xaxivdma_ext.d" -MT"src/video/xaxivdma_ext.d" -o "src/video/xaxivdma_ext.o" "../src/video/xaxivdma_ext.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/video/xaxivdma_ext.c
+ 
+Building file: ../src/net/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/echo.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/echo.d" -MT"src/net/echo.d" -o "src/net/echo.o" "../src/net/echo.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/echo.c
+ 
+Building file: ../src/net/i2c_access.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/i2c_access.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/i2c_access.d" -MT"src/net/i2c_access.d" -o "src/net/i2c_access.o" "../src/net/i2c_access.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/i2c_access.c
+ 
 Building file: ../src/net/net_main.c
 Invoking: ARM gcc compiler
 arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/net_main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/net_main.d" -MT"src/net/net_main.d" -o "src/net/net_main.o" "../src/net/net_main.c"
 cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
   Consult the user's guide for more details about POSIX paths:
     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
 Finished building: ../src/net/net_main.c
  
+Building file: ../src/net/platform_zynq.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/platform_zynq.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/platform_zynq.d" -MT"src/net/platform_zynq.d" -o "src/net/platform_zynq.o" "../src/net/platform_zynq.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/platform_zynq.c
+ 
+Building file: ../src/net/platform_zynqmp.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/platform_zynqmp.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/platform_zynqmp.d" -MT"src/net/platform_zynqmp.d" -o "src/net/platform_zynqmp.o" "../src/net/platform_zynqmp.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/platform_zynqmp.c
+ 
+Building file: ../src/net/sfp.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/sfp.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/sfp.d" -MT"src/net/sfp.d" -o "src/net/sfp.o" "../src/net/sfp.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/sfp.c
+ 
+Building file: ../src/net/si5324.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/net/si5324.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/net/si5324.d" -MT"src/net/si5324.d" -o "src/net/si5324.o" "../src/net/si5324.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/net/si5324.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.d" -o "src/audio/audio.o" "../src/audio/audio.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/audio/audio.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from ../src/video/demo.h:7:0,
+                 from ../src/main.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/video/demo.h:7,
+                 from ../src/main.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../BareMetal_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/video/demo.h:8:0,
+                 from ../src/main.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/video/demo.h:8,
+                 from ../src/main.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video/demo.h:13:0,
+                 from ../src/main.c:2:
+../../BareMetal_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/main.c:3:0:
+../src/video/avnet_console.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/main.c:4:0:
+../src/video/avnet_console_serial.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+Finished building: ../src/main.c
+ 
 Building target: BareMetal_app.elf
 Invoking: ARM gcc linker
 arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "BareMetal_app.elf"  ./src/video/avnet_console.o ./src/video/avnet_console_scanput.o ./src/video/avnet_console_serial.o ./src/video/avnet_console_tokenize.o ./src/video/demo.o ./src/video/edid_fmc_imageon.o ./src/video/sleep.o ./src/video/xaxivdma_ext.o  ./src/net/echo.o ./src/net/i2c_access.o ./src/net/net_main.o ./src/net/platform.o ./src/net/platform_mb.o ./src/net/platform_ppc.o ./src/net/platform_zynq.o ./src/net/platform_zynqmp.o ./src/net/sfp.o ./src/net/si5324.o  ./src/audio/audio.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
 cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
   Consult the user's guide for more details about POSIX paths:
     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
@@ -25,12 +728,213 @@ Finished building target: BareMetal_app.elf
 Invoking: ARM Print Size
 arm-xilinx-eabi-size BareMetal_app.elf  |tee "BareMetal_app.elf.size"
 cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\project\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\BareMetal_app\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/BareMetal_app/Debug
   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
   Consult the user's guide for more details about POSIX paths:
     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
    text	   data	    bss	    dec	    hex	filename
- 156780	   5292	2152752	2314824	 235248	BareMetal_app.elf
+ 180876	   5420	2152752	2339048	 23b0e8	BareMetal_app.elf
 Finished building: BareMetal_app.elf.size
  
+09:06:11 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:12:38 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:12:38 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:16:50 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:16:50 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:19:33 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:19:34 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:22:00 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:22:01 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:22:37 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:22:38 **** Incremental Build of configuration Debug for project net ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/main.c
+ 
+Building target: net.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: net.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  95244	   3036	2218288	2316568	 235918	net.elf
+Finished building: net.elf.size
+ 
+09:24:08 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:24:08 **** Incremental Build of configuration Debug for project net ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/main.c
+ 
+Building target: net.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: net.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  95244	   3036	2218288	2316568	 235918	net.elf
+Finished building: net.elf.size
+ 
+09:26:56 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:26:57 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+09:27:50 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+09:27:51 **** Incremental Build of configuration Debug for project net ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/main.c
+ 
+Building target: net.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: net.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  95244	   3036	2218288	2316568	 235918	net.elf
+Finished building: net.elf.size
+ 
+13:26:57 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+13:26:59 **** Incremental Build of configuration Debug for project net ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../BareMetal_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/main.c
+ 
+Building target: net.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../BareMetal_bsp/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: net.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
+cygwin warning:
+  MS-DOS style path detected: E:\projects\xilinix\repo\LAB_AEP\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
+  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  95252	   3036	2218288	2316576	 235920	net.elf
+Finished building: net.elf.size
+ 
+13:27:31 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+13:27:32 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.
+13:27:46 **** Incremental Build of configuration Debug for project BareMetal_app ****
+make all 
+make: Nothing to be done for `all'.
+13:27:47 **** Incremental Build of configuration Debug for project net ****
+make all 
+make: Nothing to be done for `all'.

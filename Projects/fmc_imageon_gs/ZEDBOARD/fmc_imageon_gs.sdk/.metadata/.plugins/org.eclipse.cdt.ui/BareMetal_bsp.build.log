@@ -1,4 +1,4 @@
-17:22:43 **** Build of project BareMetal_bsp ****
+08:33:14 **** Build of project BareMetal_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
 E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -197,5 +197,5 @@ E:/ProgramFiles/Xilinx/SDK/2015.4/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcp
 "Compiling xadcps"
 'Finished building libraries'
 
-17:23:31 Build Finished (took 48s.244ms)
+08:33:50 Build Finished (took 36s.820ms)
 

@@ -15,6 +15,7 @@
 		<item value="false" key="caseSensitive"/>
 		<item value="227191" key="searchFlags"/>
 		<list key="previousPatterns">
+			<item value="fmc_imageon_hdmii_edid_content"/>
 			<item value="start_udp"/>
 			<item value="echo_netif"/>
 			<item value="usleep"/>

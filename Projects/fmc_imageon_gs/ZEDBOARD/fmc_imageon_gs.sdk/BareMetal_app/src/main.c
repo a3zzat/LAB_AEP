@@ -31,7 +31,7 @@ int main()
 	Audio_init();
 
 	xil_printf("--                Gigabit-Ethernet                  --\n\r");
-	net_init(udp_1,udp_netif);
+//	net_init(udp_1,udp_netif);
 	//register the function recv_callback as the call back for incoming functions
 	//this function will be called to process incoming package
 //	udp_recv(udp, udp_recv_callback, NULL );
@@ -91,36 +91,36 @@ int main()
 //-----------------------------------------------
 //My own version of sending and receiving
 
-xemacif_input(udp_netif);
+//xemacif_input(udp_netif);
 	if (!(AudioPuf=malloc(sizeof(AudioData_t)))) {
 		xil_printf("error allocating AudioPuf\r\n");
  	}
- 	 buflen = sizeof(AudioPuf);
-
- 	if (!(NetPuf= pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL))) {
- 		xil_printf("error allocating NetPuf\r\n");
-	}
-      NetPuf->payload = (void *) AudioPuf;
+// 	 buflen = sizeof(AudioPuf);
+//
+// 	if (!(NetPuf= pbuf_alloc(PBUF_TRANSPORT, buflen, PBUF_POOL))) {
+// 		xil_printf("error allocating NetPuf\r\n");
+//	}
+//      NetPuf->payload = (void *) AudioPuf;
       
       //create a new udp for sending. The other udp already created is used for receiving
-      struct udp_pcb *send_udp = udp_new();
+//      struct udp_pcb *send_udp = udp_new();
       
       //port for sending udp packets
-        u16_t  fwd_port = 5001;
+//        u16_t  fwd_port = 5001;
         
         //ip address for sending packets. It should be the same as the IP address of the remote board we are 
         //receiving from
-       struct ip_addr forward_ip;
-       IP4_ADDR(&forward_ip,  192, 168,   1, 11);
+//       struct ip_addr forward_ip;
+//       IP4_ADDR(&forward_ip,  192, 168,   1, 11);
       
       	while (1)
  	{
  		//read audio packets
  		read_play(AudioPuf);
  		//receiving
- 		udp_recv(udp_1, udp_recv_callback, NULL);
+// 		udp_recv(udp_1, udp_recv_callback, NULL);
  		//sending
-         	udp_sendto(send_udp, NetPuf, &forward_ip, fwd_port); //dest port
+//         	udp_sendto(send_udp, NetPuf, &forward_ip, fwd_port); //dest port
  	}
        //Free the buffer
        pbuf_free(NetPuf);

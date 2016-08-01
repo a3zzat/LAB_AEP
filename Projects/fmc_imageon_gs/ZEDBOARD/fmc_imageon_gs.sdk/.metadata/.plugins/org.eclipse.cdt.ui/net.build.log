@@ -1,39 +1,6 @@
-12:48:38 **** Incremental Build of configuration Debug for project net ****
+13:27:47 **** Incremental Build of configuration Debug for project net ****
 make all 
-Building file: ../src/main.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../av_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-Finished building: ../src/main.c
- 
-Building target: net.elf
-Invoking: ARM gcc linker
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../av_bsp_1/ps7_cortexa9_0/lib -o "net.elf"  ./src/echo.o ./src/i2c_access.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-Finished building target: net.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size net.elf  |tee "net.elf.size"
-cygwin warning:
-  MS-DOS style path detected: E:\projects\xilinix\master_repo\LAB_AEP\Integrated_redo_\hdl\Projects\fmc_imageon_gs\ZEDBOARD\fmc_imageon_gs.sdk\net\Debug
-  Preferred POSIX equivalent is: /cygdrive/e/projects/xilinix/master_repo/LAB_AEP/Integrated_redo_/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.sdk/net/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-   text	   data	    bss	    dec	    hex	filename
-  95252	   3036	2218288	2316576	 235920	net.elf
-Finished building: net.elf.size
- 
+make: Nothing to be done for `all'.
 
-12:48:39 Build Finished (took 1s.35ms)
+13:27:47 Build Finished (took 263ms)
 

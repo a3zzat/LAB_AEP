@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="10" Path="E:/projects/xilinix/master_repo/LAB_AEP/project/hdl/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
+<Project Version="7" Minor="10" Path="E:/projects/xilinix/repo/LAB_AEP/Projects/fmc_imageon_gs/ZEDBOARD/fmc_imageon_gs.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="eee087e3a62448dcbde26358149dbbe0"/>
@@ -20,7 +20,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../IP"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/ip_cores/zed_audio_ctrl"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/ip_cores/zed_audio_ctrl"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
     <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
     <Option Name="IPUserFilesDir" Val="$PPRDIR/fmc_imageon_gs.ip_user_files"/>
@@ -61,7 +61,7 @@
       </File>
       <File Path="$PSRCDIR/constrs_1/imports/xilinix/Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Zynq training repo/Zynq-SoC-Training/lab8/Source Code/adc_dac_audio.xdc"/>
           <Attr Name="ImportTime" Val="1464295940"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
